@@ -18,14 +18,14 @@
 # -------------------------------------------------------------------------- #
 #
 # Quartus Prime
-# Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-# Date created = 15:37:21  September 15, 2026
+# Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+# Date created = 12:06:15  September 15, 2026
 #
 # -------------------------------------------------------------------------- #
 
-QUARTUS_VERSION = "25.1"
-DATE = "15:37:21  September 15, 2026"
+QUARTUS_VERSION = "24.1"
+DATE = "12:06:15  September 15, 2026"
 
 # Revisions
 
-PROJECT_REVISION = "Micro-CPU"
+PROJECT_REVISION = "Micro_CPU"
