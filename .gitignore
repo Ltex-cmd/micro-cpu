@@ -67,3 +67,6 @@ incremental_db/
 db/
 _output_files/
 PLLJ_PLLSPE_INFO.txt
+
+# files created by MacOS 
+*.DS_Store
