@@ -60,11 +60,35 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/REGISTER_PIPO_4BITS.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/DEMUX_1X4.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/DEMUX_1X2.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/COMPARATOR_4BITS.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/BUS_MUX_4X1.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/BUS_MUX_2X1.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/ADDER_LOCKAHEAD_4BITS.bdf
-set_global_assignment -name BDF_FILE DATABASE/SCHEMATIC/BUS_DEMUX_1X4.bdf
+
+# Bibliotecas locais: esquemas e simbolos organizados por funcao.
+set_global_assignment -name SEARCH_PATH src/top
+set_global_assignment -name SEARCH_PATH src/ula
+set_global_assignment -name SEARCH_PATH src/contadores
+set_global_assignment -name SEARCH_PATH src/registradores
+set_global_assignment -name SEARCH_PATH src/display
+set_global_assignment -name SEARCH_PATH src/logica
+set_global_assignment -name SEARCH_PATH memoria
+
+# Fontes do projeto, incluindo o circuito principal.
+set_global_assignment -name BDF_FILE src/contadores/RIPPLE_COUNTER.bdf
+set_global_assignment -name BDF_FILE src/contadores/Synchronous_Counter_with_Jump.bdf
+set_global_assignment -name BDF_FILE src/contadores/TFF_Jump.bdf
+set_global_assignment -name BDF_FILE src/display/hex_display.bdf
+set_global_assignment -name BDF_FILE src/logica/BUS_DEMUX_1X4.bdf
+set_global_assignment -name BDF_FILE src/logica/BUS_MUX_2X1.bdf
+set_global_assignment -name BDF_FILE src/logica/BUS_MUX_4X1.bdf
+set_global_assignment -name BDF_FILE src/logica/DEMUX_1X2.bdf
+set_global_assignment -name BDF_FILE src/logica/DEMUX_1X4.bdf
+set_global_assignment -name BDF_FILE src/registradores/REGISTER_PIPO_4BITS.bdf
+set_global_assignment -name BDF_FILE src/top/Micro_CPU.bdf
+set_global_assignment -name BDF_FILE src/ula/ADDER_LOCKAHEAD_4BITS.bdf
+set_global_assignment -name BDF_FILE src/ula/COMPARATOR_4BITS.bdf
+set_global_assignment -name BDF_FILE src/ula/CSM.bdf
+set_global_assignment -name BDF_FILE src/ula/FS.bdf
+set_global_assignment -name BDF_FILE src/ula/MULTIPLIER_4BITS.bdf
+set_global_assignment -name BDF_FILE src/ula/divisor.bdf
+set_global_assignment -name BDF_FILE src/ula/sum_look_ahead.bdf
+
+# Conteudo inicial da memoria.
+set_global_assignment -name MIF_FILE memoria/INSTRUCAO.mif
