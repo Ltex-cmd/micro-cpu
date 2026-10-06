@@ -42,12 +42,12 @@ set_global_assignment -name DEVICE 5CEBA4F23C7
 set_global_assignment -name TOP_LEVEL_ENTITY Micro_CPU
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:06:15  SEPTEMBER 15, 2026"
-set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "25.1std.0 Lite Edition"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
-set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Altera FPGA (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
@@ -71,6 +71,13 @@ set_global_assignment -name SEARCH_PATH src/logica
 set_global_assignment -name SEARCH_PATH memoria
 
 # Fontes do projeto, incluindo o circuito principal.
+
+# Conteudo inicial da memoria.
+
+set_global_assignment -name BSF_FILE src/ula/subtrator4semdisplay.bsf
+set_global_assignment -name BDF_FILE src/ula/subtrador_4_bits.bdf
+set_global_assignment -name BSF_FILE src/ula/subtrator_completo.bsf
+set_global_assignment -name BDF_FILE src/ula/subtrator_completo.bdf
 set_global_assignment -name BDF_FILE src/contadores/RIPPLE_COUNTER.bdf
 set_global_assignment -name BDF_FILE src/contadores/Synchronous_Counter_with_Jump.bdf
 set_global_assignment -name BDF_FILE src/contadores/TFF_Jump.bdf
@@ -89,6 +96,5 @@ set_global_assignment -name BDF_FILE src/ula/FS.bdf
 set_global_assignment -name BDF_FILE src/ula/MULTIPLIER_4BITS.bdf
 set_global_assignment -name BDF_FILE src/ula/divisor.bdf
 set_global_assignment -name BDF_FILE src/ula/sum_look_ahead.bdf
-
-# Conteudo inicial da memoria.
 set_global_assignment -name MIF_FILE memoria/INSTRUCAO.mif
+set_global_assignment -name BDF_FILE src/ula/subtrator4semdisplay.bdf
