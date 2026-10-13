@@ -1,0 +1,59 @@
+{
+  "result": "PASS coverage union",
+  "single_uninterrupted_full_run": false,
+  "full_prefix_log": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/attempt_05_event_control_monitor/simulation.log",
+  "recovery_log": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/attempt_06_reset_recovery/simulation.log",
+  "completed_prints": {
+    "prefix": 17,
+    "recovery": 1,
+    "total_across_runs": 18
+  },
+  "completed_initializations": {
+    "prefix": 1,
+    "recovery": 2,
+    "total_across_runs": 3,
+    "note": "The recovery segment repeats the initial-reset setup, then completes reset-during-print recovery."
+  },
+  "covered": [
+    "All 16 fixture opcodes; command 80 and 16 exact characters per print",
+    "Opcode latch; rejected initialization/busy PRINT edges; held-high PRINT; new idle edge",
+    "Reset during initialization and in the middle of a print EN pulse; clean complete reinitialization",
+    "Successful 16-character print after recovery, including opcode latch after reset",
+    "No idle/reset EN; 1 us EN; 10 ms cadence; initialization deadlines; data/control stability and 20 ns hold"
+  ],
+  "source_hashes_identical_across_runs": {
+    "lcd_data_mux.v": "3351c9bab1d5c11b687e4a1b97013a4264ce48978382d3262d8885b2b1a9caed",
+    "lcd_operation_display.v": "3fbf47726c02b45db3129dc4c7bda4819a79fe0895f10573311ab2cdd2bd22f9",
+    "lpm_compare_0.v": "56d35856f084a6d3aa7fac08faa168bbd3dc3fa81329472b81a90706087b0506",
+    "lpm_compare_1.v": "7c4b948f6baa37909fd827816a7e2f64b311e33424b690281268157dc69b315c",
+    "lpm_compare_2.v": "4d129546b0460ef9e3b2595666524e878b39c08e8d02bd5eeb6086804ba4e774",
+    "lpm_compare_3.v": "6444c6c8be2820b502be2cb004695c25f9a8335c0da8eb62a412502694ba8087",
+    "lpm_compare_4.v": "42106e20e3f1a1f1626677274499e62ffa297b1783424b831d208be3cb6e115e",
+    "lpm_constant_10.v": "78807ce1bff25f395dde2ae610f924990e15581512c5f61b6d81f603951e0cd7",
+    "lpm_constant_11.v": "f5c8a4eeefef574ec8ff94cf0f5660cdf177cdf1bae647dabb5de06f31612c6b",
+    "lpm_constant_5.v": "239feb22e2f0de0c902a348792f2fb64610f0da03e66a65978c1f0855392f972",
+    "lpm_constant_6.v": "88055a7f2d2aba45fe594d154323acd801e58dfca61469ca7a7209233b527267",
+    "lpm_constant_7.v": "5ded9914a05ed879ea4c63178a004c668f92e44072b9b57bf6d3c7a6ddc59214",
+    "lpm_constant_8.v": "3f4ec97f9d49ff0ba6bd657a3a74ba565c5700e9d90f4121c9182d4e2fa90368",
+    "lpm_constant_9.v": "a490c115ba4ee4dd452c0d6622c71ce21da1e18e2e357a5a898d54f397db2d2d",
+    "lpm_counter_14.v": "6ad41f8b44caa9e21a9cea1cef01b5b538176080e7a992498883850e592ff796",
+    "lpm_counter_15.v": "1427e5931df538f42f25cc62c735dd5dc5a22e56c59b89c82e0f9135a2a25b75",
+    "lpm_counter_16.v": "1af552d0c412bd2734924d9822e3b03f111dcecc5851961064aac7fbdef92fb5",
+    "lpm_ff_11.v": "6b56c3791e544d0211aaa3a3d81b7e02b3f8c50b473b187e70fee6bb212b6afd",
+    "lpm_ff_12.v": "3396ea93b096749e51fa392256ba88fd790c55704e871e344a46bb938aeb87b3",
+    "lpm_mux_6.v": "72d84595d89c2e66ebcd44f22590372506db9163f23eac2ecec02efd128bc8f0",
+    "lpm_rom_12.v": "8d3b05d3ee6479b484e4eb0852ce4bdfeb8712cda972b3baac3ff31908b92816",
+    "lpm_rom_13.v": "839f5d24ee94536c00df743ceea46692ffc204f33b1a03076c4e3b5c0b083145",
+    "lpm_rom_14.v": "5821b9d31219f36714e63786b66cfbae7688e523b9017854033ab2052e14cd40",
+    "control.mif": "3d2e4e7ee5b9880fb3a27f776a07f4c5bebdbd0ea3f10b2dc75f9ef4122a0866",
+    "operations.mif": "ceeb8ff19b51d3ac91938f606093d575dd6edc9d025b901273d6125f4735720b",
+    "220model.v": "f1947790d040b50208c2fe60eaeb034c1e2f1f6c92f9765b4232bb1578210984"
+  },
+  "identical_monitor_and_task_block_sha256": "ec47151d12d4e6f0de9dd12a016138ce11dc808bdfdf2e99ca9654995cde5b0c",
+  "limits": [
+    "The prefix was interrupted by the execution environment and has no terminal full-suite PASS.",
+    "Recovery is a separately reset simulation of the real DUT, not a resumed simulator checkpoint.",
+    "The interrupted prefix CSV/VCD may have an unflushed tail; its completed-check log is preserved.",
+    "Functional interface verification only; no physical-board or post-fit verification."
+  ]
+}

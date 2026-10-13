@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "tests": 15,
+  "preview_identical_to_current_mif": true,
+  "protected_hashes_unchanged": {
+    "operations.mif": "ceeb8ff19b51d3ac91938f606093d575dd6edc9d025b901273d6125f4735720b",
+    "control.mif": "3d2e4e7ee5b9880fb3a27f776a07f4c5bebdbd0ea3f10b2dc75f9ef4122a0866",
+    "lcd_operation_display.bdf": "7e165474f92b6c49520b716efdea7d89fc4c23aed9801a0de36c8a491b67faa5",
+    "../teste/txt_to_mif.c": "4cb740257f010055723194d0a888d3cdd0bb180d26b2ecd93e706f12d9bbc2eb"
+  },
+  "four_bit_interface_retained": true,
+  "existing_names": 9,
+  "blank_slots": [
+    "9",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "preview_output": "/tmp/lcd_operations_preview_20261007.mif",
+  "note": "Only temporary MIF outputs were generated. Existing C converter and simulation fixture are unchanged."
+}

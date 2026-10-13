@@ -22,7 +22,7 @@ on the Quartus Prime software download page.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 400 392 568 408)
+	(rect 336 400 504 416)
 	(text "INPUT" (rect 125 0 153 9)(font "Arial" (font_size 6)))
 	(text "CLK" (rect 5 0 26 10)(font "Arial" ))
 	(pt 168 8)
@@ -56,7 +56,23 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 400 440 568 456)
 	(text "INPUT" (rect 125 0 153 9)(font "Arial" (font_size 6)))
-	(text "CLRN" (rect 5 0 36 10)(font "Arial" ))
+	(text "CLRN" (rect 5 0 35 10)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 16)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 336 384 504 400)
+	(text "INPUT" (rect 125 0 153 9)(font "Arial" (font_size 6)))
+	(text "Enable" (rect 5 0 39 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -344,6 +360,38 @@ on the Quartus Prime software download page.
 		(line (pt 8 8)(pt 24 8))
 	)
 )
+(symbol
+	(rect 512 376 576 424)
+	(text "AND2" (rect 1 0 25 9)(font "Arial" (font_size 6)))
+	(text "inst4" (rect 3 37 25 49)(font "Intel Clear" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 18)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 18)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 34)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 34)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 14 32))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 26)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 26)(font "Courier New" (bold))(invisible))
+		(line (pt 42 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 12)(pt 30 12))
+		(line (pt 14 37)(pt 31 37))
+		(line (pt 14 12)(pt 14 37))
+		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
+	)
+)
 (connector
 	(pt 584 384)
 	(pt 576 384)
@@ -386,7 +434,6 @@ on the Quartus Prime software download page.
 	(pt 864 384)
 )
 (connector
-	(text "<<__$DEF_ALIAS567>>" (rect 760 368 872 380)(font "Intel Clear" )(invisible))
 	(pt 752 384)
 	(pt 760 384)
 )
@@ -494,14 +541,6 @@ on the Quartus Prime software download page.
 	(pt 888 464)
 )
 (connector
-	(pt 568 400)
-	(pt 576 400)
-)
-(connector
-	(pt 576 400)
-	(pt 584 400)
-)
-(connector
 	(pt 576 464)
 	(pt 680 464)
 )
@@ -551,7 +590,18 @@ on the Quartus Prime software download page.
 	(pt 616 448)
 	(pt 720 448)
 )
-(junction (pt 576 400))
+(connector
+	(pt 576 400)
+	(pt 584 400)
+)
+(connector
+	(pt 504 408)
+	(pt 512 408)
+)
+(connector
+	(pt 512 392)
+	(pt 504 392)
+)
 (junction (pt 576 336))
 (junction (pt 680 336))
 (junction (pt 784 336))

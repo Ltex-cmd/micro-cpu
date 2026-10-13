@@ -1,0 +1,67 @@
+DE2-115: REFERÊNCIA DE PINOS PARA O CONTROLADOR LCD
+Conferência documental: 2026-10-06
+
+Fonte primária: Terasic, DE2-115 User Manual
+https://www.terasic.com.tw/attachment/archive/502/DE2_115_User_manual.pdf
+Página de recursos do fabricante:
+https://www.terasic.com.tw/cgi-bin/page/archive.pl?CategoryNo=139&Language=English&No=502&PartNo=4
+
+Seções consultadas (numeração impressa no manual):
+- 4.2, tabelas 4-1 e 4-2, página 35: switches e botões
+- 4.5, tabela 4-5, página 38: clocks
+- 4.6, figura 4-12 e tabela 4-6, páginas 39-40: LCD
+
+Este arquivo é uma referência, não um QSF nem um script de assignments.
+Nenhuma associação física é aplicada automaticamente. Conferir a revisão da
+placa e as tensões/padrões de I/O antes de programar. Não confundir DE2-115
+com a DE2 original: as tabelas são diferentes.
+
+SINAIS FIXOS DA PLACA
+
+Porta do bloco       Pino FPGA    Nível no manual    Função
+CLOCK_50             PIN_Y2       3.3 V              Oscilador de 50 MHz
+LCD_DATA[7]          PIN_M5       3.3 V              Dado bit 7
+LCD_DATA[6]          PIN_M3       3.3 V              Dado bit 6
+LCD_DATA[5]          PIN_K2       3.3 V              Dado bit 5
+LCD_DATA[4]          PIN_K1       3.3 V              Dado bit 4
+LCD_DATA[3]          PIN_K7       3.3 V              Dado bit 3
+LCD_DATA[2]          PIN_L2       3.3 V              Dado bit 2
+LCD_DATA[1]          PIN_L1       3.3 V              Dado bit 1
+LCD_DATA[0]          PIN_L3       3.3 V              Dado bit 0
+LCD_EN               PIN_L4       3.3 V              Enable
+LCD_RW               PIN_M1       3.3 V              0=escrita, 1=leitura
+LCD_RS               PIN_M2       3.3 V              0=comando, 1=dado
+LCD_ON               PIN_L5       3.3 V              Alimentação on/off
+
+O controlador é somente de escrita: LCD_RW permanece em zero, LCD_DATA é
+saída do FPGA e não há leitura do busy flag do HD44780.
+
+LCD_BLON aparece no manual como PIN_L6, mas não é porta deste bloco. O manual
+adverte que os módulos LCD da placa não têm backlight e que esse sinal não
+deve ser usado nos projetos correspondentes. Não adicioná-lo por inferência.
+
+REFERÊNCIA OPCIONAL PARA UM TOP DE TESTE; NÃO É UM MAPEAMENTO JÁ ESCOLHIDO
+
+Sinal da placa       Pino FPGA    Nível no manual
+KEY[0]               PIN_M23      Depende de JP7
+KEY[1]               PIN_M21      Depende de JP7
+KEY[2]               PIN_N21      Depende de JP7
+KEY[3]               PIN_R24      Depende de JP7
+SW[0]                PIN_AB28     Depende de JP7
+SW[1]                PIN_AC28     Depende de JP7
+SW[2]                PIN_AC27     Depende de JP7
+SW[3]                PIN_AD27     Depende de JP7
+
+RESET_N, PRINT e OPCODE não são nomes de periféricos fixos da DE2-115. A
+integração deve escolher sua origem. KEY[0] pode servir a RESET_N, mas essa
+opção não está aplicada aqui. PRINT requer um pedido de borda positiva
+síncrono; um botão não pode ser ligado a ele sem revisar polaridade e
+sincronização. O opcode deve permanecer coerente e estável no aceite.
+
+BUSY e INIT_DONE são sinais internos de estado; não possuem pinos de placa
+inerentes. LEDs para observá-los só devem ser escolhidos no top de integração.
+
+O nível 3.3 V da tabela não substitui a seleção explícita de IO_STANDARD no
+Quartus. Para KEY/SW, conferir JP7 e o VCCIO efetivo; não aplicar o padrão
+elétrico dos pinos do LCD a todos os pinos indiscriminadamente. A seleção de
+IO_STANDARD, a aplicação dos pinos e a validação física ainda estão pendentes.

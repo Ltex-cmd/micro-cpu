@@ -1,0 +1,3 @@
+# DE2-115 board wrapper project. Confirm JP7 and review timing before programming.
+QUARTUS_VERSION = "25.1"
+PROJECT_REVISION = "lcd_de2_115_top"

@@ -1,0 +1,11 @@
+VCD info: dumpfile lcd_trace.vcd opened for output.
+Reset epoch 1 released at 200 ns
+Reset epoch 2 released at 70001660 ns
+PASS init epoch 2 at 200001690 ns
+Reset epoch 3 released at 260003240 ns
+PASS init epoch 3 at 390003270 ns
+PASS opcode 8: command 80 + 16 fixture chars at 580003391 ns
+PASS: actual DUT recovery checked; 1 complete print after reset, 2 complete init sequences,
+      reset during init/print, opcode latch after reset, held PRINT, no idle/reset EN,
+      1 us EN, 10 ms cadence, init deadlines and 20 ns hold.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/tb_lcd_operation_display.sv:389: $finish called at 600003480000 (1ps)

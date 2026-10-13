@@ -1,0 +1,10 @@
+Board epoch 1 released at 250000
+Board epoch 2 released at 50001950000
+PASS board initialization 1 at 180001990000
+PASS board bounce rejection at 234002001000
+PASS board print 1, opcode 6 at 414488041000
+Board epoch 3 released at 457975730000
+PASS board initialization 2 at 587975770000
+PASS board print 2, opcode 8 at 791461821000
+PASS: actual board DUT checked; debounce=19, sync/reset, bounce, one-cycle pulses, held/busy rejection, opcode capture, two full prints and reset interruptions
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/tb_lcd_de2_115_top.sv:390: $finish called at 803461821000 (1ps)

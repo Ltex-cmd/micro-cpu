@@ -1,0 +1,745 @@
+{
+  "sources": [
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/debouncer.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/debouncer.v",
+      "original_sha256": "aae012da3b571dcf24b3c7e1af6543cdee939329905ac7837caea421b6187b77",
+      "simulator_sha256": "aae012da3b571dcf24b3c7e1af6543cdee939329905ac7837caea421b6187b77"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_data_mux.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lcd_data_mux.v",
+      "original_sha256": "3351c9bab1d5c11b687e4a1b97013a4264ce48978382d3262d8885b2b1a9caed",
+      "simulator_sha256": "3351c9bab1d5c11b687e4a1b97013a4264ce48978382d3262d8885b2b1a9caed"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_de2_115_top.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lcd_de2_115_top.v",
+      "original_sha256": "6866a9fd6169b8fdfc64130a984a16c84e35b7990f796e5230d0042f81966679",
+      "simulator_sha256": "5ed49f64dafc877417dcfd088e804a210538a1b8749bf1d0990dbd010ba50f9c"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lcd_operation_display.v",
+      "original_sha256": "0c99fcddd450443dfc6aec04061d3726da48bfe699a565c08dfd202b3d253cbc",
+      "simulator_sha256": "1c0589404a8e37b9fb77fd8231d263f93ccf03e2e920f6bf00bac7878c9f4114"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_0.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_compare_0.v",
+      "original_sha256": "88e88fbf5f4aebd75e91b8e3f9553027ef4b25a4f72aaf7c6f75a081fae73257",
+      "simulator_sha256": "fed17daa9732b071065712da9aee07048e39efcbb93d569c2287af9826edf738"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_1.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_compare_1.v",
+      "original_sha256": "adc6abd93a76d5242c737a4040b321666e2e72112f7a5331bc17d482abf1f46f",
+      "simulator_sha256": "03ec3bfbc5cbb866ebaece997221d7b8b7cf84cd1e7a6ed2acdf7709d13d4e16"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_2.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_compare_2.v",
+      "original_sha256": "f7dc2b4e4ceef434c675350c410679d7d9528c3734a0a61083fd4e3ff02f541e",
+      "simulator_sha256": "0753cbe4c9a31c893215d542aec5dba5b0ecf6a90c5a63d357ba1ad6f2fe8339"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_3.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_compare_3.v",
+      "original_sha256": "0195c825e57e98cb3899352ca02c7e9e7deb86021fb300d227f03b4cdfa005fd",
+      "simulator_sha256": "8de46b5f680224c008c5d4303c65d63b2d6f45720532daeaec1352f9f7056573"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_4.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_compare_4.v",
+      "original_sha256": "aa441c4eee30405cc6beae224637967beafd7330ae81f53a6ff5558ad84bc94e",
+      "simulator_sha256": "7f7a1174ce2b059d27e22893c51eed42826c6d119daa86ea0859dbe2be9e9346"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_10.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_10.v",
+      "original_sha256": "c1a732f9cc1d2013d84160d2b48b6a24603e1c72a9361ce52edb0a17c63746d4",
+      "simulator_sha256": "3cb54e4623eb6151bf5903ed84c2257c2c0b6a2a06c4f33d93081a54a96466c2"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_11.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_11.v",
+      "original_sha256": "f5c8a4eeefef574ec8ff94cf0f5660cdf177cdf1bae647dabb5de06f31612c6b",
+      "simulator_sha256": "8f00a503b008cf6158b737a60447543510e6f52606c3b73e0f3f56d40459892f"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_5.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_5.v",
+      "original_sha256": "009edbc729747e0db02eed6053e2a01c296d3f1abd2d0778f3a5ffc094f7edf2",
+      "simulator_sha256": "95c3b6f2c8d8ba02ca2c063c0ec424f3fbec4121a84ac428ecc83eaeb1841e9a"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_6.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_6.v",
+      "original_sha256": "83eece033aad21c97ecd124a5b427f8e74996acfb97d100ea2cb6a41c9c01180",
+      "simulator_sha256": "0258735dd03dc1b616c76c2a547909d3d6985c20aee3d1bd15d299d5a2939b91"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_7.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_7.v",
+      "original_sha256": "7b0bc50376cbff367aa31e5b9b7bc5b4e814180ae6fe20c1dd19ffe9408b0569",
+      "simulator_sha256": "b8e9ff84c8680edf0bb32f42f6b8457bb08d0a24d8ed2b9b8bfdb28faa6a407d"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_8.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_8.v",
+      "original_sha256": "2b346c9b486b3b9e046335815e51a0f1474edffbf7b56a7a629a8ff8f61b02a6",
+      "simulator_sha256": "121146010ccaa55c3903a5420b59210ba8d6e0e28d2807cc68ac0536e5fcfdef"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_9.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_constant_9.v",
+      "original_sha256": "1bc81ea41cc60a26f6c0a15ab3fbb68dcc7ab31212bc0b3cddbbd44624881c74",
+      "simulator_sha256": "951039e288e59ba87817b781b9533aba770376e6db9d7e6a9d431017a8182a43"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_14.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_counter_14.v",
+      "original_sha256": "d5c9234768feaf9f4ab7566cb0841db824e3cec626af91459d4d53b87033b824",
+      "simulator_sha256": "bc29e3b49a72788b31f3a172749d80bebd4778c5bf7ab5c1c3a0b57090898a20"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_15.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_counter_15.v",
+      "original_sha256": "f6f9fb95dc655b25f844d27fdf896cc1e763577dac843feed30c84d6f92654cf",
+      "simulator_sha256": "ef0e2a431c3e4b2ece573dd3a175854b296a076ba30631d31803c512929396c8"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_16.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_counter_16.v",
+      "original_sha256": "1af552d0c412bd2734924d9822e3b03f111dcecc5851961064aac7fbdef92fb5",
+      "simulator_sha256": "2e8b45147848b4369bf7777661e1fbbb72b6fa9bedc5821ce46a4b323820d0fc"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_0.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_ff_0.v",
+      "original_sha256": "918c3ea1a5d9da74a1daefae12267685e997c5563adfc592f36d0f083e4b8312",
+      "simulator_sha256": "ccd11b1fefd44e913da42f724b50f0deb044098f30cd4929fea9df6e1760558c"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_1.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_ff_1.v",
+      "original_sha256": "cb3453e5b90a423fbee4f031f049b7040e3f755fa662171fc2e5ed602723a093",
+      "simulator_sha256": "be2aa7a9df0afa46d12f2a88e649631532e73e3ca757e0d203671206c974efab"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_11.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_ff_11.v",
+      "original_sha256": "214e16ef8566513e55d8553fda3a241cd1a88d31376fe22d6a05c1300d5fb835",
+      "simulator_sha256": "66366601cab52e37eb44328848c053a80364c6877cddaa56ea39a806e442e719"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_12.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_ff_12.v",
+      "original_sha256": "3396ea93b096749e51fa392256ba88fd790c55704e871e344a46bb938aeb87b3",
+      "simulator_sha256": "86872e1e3a90be1b78d03401a21565e24cd2d83ce1383587176f8b8f8bd99f32"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_mux_6.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_mux_6.v",
+      "original_sha256": "72d84595d89c2e66ebcd44f22590372506db9163f23eac2ecec02efd128bc8f0",
+      "simulator_sha256": "9e5a9f27bf5a5f55119cef44f4190f4830ab7fe796ed1c80df2f2f4f5aac9fbd"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_rom_12.v",
+      "original_sha256": "b4f69772c50a1792efcaddae61f0658e6ebf179a0a91be4e20840f8f128b0775",
+      "simulator_sha256": "9e27a370658b3e7d05b6f0d4f5c6fd67a695bd70233edb6eaa92a13d7997a4f0"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_rom_13.v",
+      "original_sha256": "2c06a768b53b830f344f2d4449627b4acc4c94eb5b6c6909b32f932c64762d43",
+      "simulator_sha256": "6378deab110808c454329c10177fd6366fec3aeff7faf5b141d784ec66a4f1df"
+    },
+    {
+      "original": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "simulator_copy": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/board/export_compat/lpm_rom_14.v",
+      "original_sha256": "5821b9d31219f36714e63786b66cfbae7688e523b9017854033ab2052e14cd40",
+      "simulator_sha256": "3886e3e27a17de78896f4479f9cc073c1eaf01fe2473114eb9565bf13c6890d3"
+    }
+  ],
+  "removed_stubs": [
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_de2_115_top.v",
+      "module": "lpm_ff_0",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_0.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_de2_115_top.v",
+      "module": "lpm_ff_1",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_1.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_compare_0",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_0.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_compare_1",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_1.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_compare_2",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_2.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_compare_3",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_3.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_compare_4",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_4.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_constant_10",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_10.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_constant_5",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_5.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_constant_6",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_6.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_constant_7",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_7.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_constant_8",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_8.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_constant_9",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_9.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_counter_14",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_14.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_counter_15",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_15.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_ff_11",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_11.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_rom_12",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.v",
+      "module": "lpm_rom_13",
+      "implementation": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v"
+    }
+  ],
+  "parameter_adaptations": [
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_0.v",
+      "parameter": "LPM_PIPELINE",
+      "to": "lpm_pipeline",
+      "value": "0",
+      "model_value": "0"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_0.v",
+      "parameter": "LPM_REPRESENTATION",
+      "to": "lpm_representation",
+      "value": "\"UNSIGNED\"",
+      "model_value": "\"UNSIGNED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_0.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_1.v",
+      "parameter": "LPM_PIPELINE",
+      "to": "lpm_pipeline",
+      "value": "0",
+      "model_value": "0"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_1.v",
+      "parameter": "LPM_REPRESENTATION",
+      "to": "lpm_representation",
+      "value": "\"UNSIGNED\"",
+      "model_value": "\"UNSIGNED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_1.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_2.v",
+      "parameter": "LPM_PIPELINE",
+      "to": "lpm_pipeline",
+      "value": "0",
+      "model_value": "0"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_2.v",
+      "parameter": "LPM_REPRESENTATION",
+      "to": "lpm_representation",
+      "value": "\"UNSIGNED\"",
+      "model_value": "\"UNSIGNED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_2.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_3.v",
+      "parameter": "LPM_PIPELINE",
+      "to": "lpm_pipeline",
+      "value": "0",
+      "model_value": "0"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_3.v",
+      "parameter": "LPM_REPRESENTATION",
+      "to": "lpm_representation",
+      "value": "\"UNSIGNED\"",
+      "model_value": "\"UNSIGNED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_3.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_4.v",
+      "parameter": "LPM_PIPELINE",
+      "to": "lpm_pipeline",
+      "value": "0",
+      "model_value": "0"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_4.v",
+      "parameter": "LPM_REPRESENTATION",
+      "to": "lpm_representation",
+      "value": "\"UNSIGNED\"",
+      "model_value": "\"UNSIGNED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_compare_4.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_10.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "13",
+      "model_value": "13"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_10.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_11.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "13",
+      "model_value": "13"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_11.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_5.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "50",
+      "model_value": "50"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_5.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_6.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "100",
+      "model_value": "100"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_6.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_7.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "499999",
+      "model_value": "499999"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_7.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_8.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "15",
+      "model_value": "15"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_8.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_9.v",
+      "parameter": "LPM_CVALUE",
+      "to": "lpm_cvalue",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_constant_9.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_14.v",
+      "parameter": "LPM_DIRECTION",
+      "to": "lpm_direction",
+      "value": "\"UP\"",
+      "model_value": "\"UP\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_14.v",
+      "parameter": "LPM_MODULUS",
+      "to": "lpm_modulus",
+      "value": "32",
+      "model_value": "32"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_14.v",
+      "parameter": "LPM_SVALUE",
+      "to": "lpm_svalue",
+      "value": "13",
+      "model_value": "\"13\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_14.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "5",
+      "model_value": "5"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_15.v",
+      "parameter": "LPM_DIRECTION",
+      "to": "lpm_direction",
+      "value": "\"UP\"",
+      "model_value": "\"UP\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_15.v",
+      "parameter": "LPM_MODULUS",
+      "to": "lpm_modulus",
+      "value": "500000",
+      "model_value": "500000"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_15.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_16.v",
+      "parameter": "LPM_DIRECTION",
+      "to": "lpm_direction",
+      "value": "\"UP\"",
+      "model_value": "\"UP\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_16.v",
+      "parameter": "LPM_MODULUS",
+      "to": "lpm_modulus",
+      "value": "500000",
+      "model_value": "500000"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_counter_16.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "19",
+      "model_value": "19"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_0.v",
+      "parameter": "LPM_FFTYPE",
+      "to": "lpm_fftype",
+      "value": "\"DFF\"",
+      "model_value": "\"DFF\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_0.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "4",
+      "model_value": "4"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_1.v",
+      "parameter": "LPM_FFTYPE",
+      "to": "lpm_fftype",
+      "value": "\"DFF\"",
+      "model_value": "\"DFF\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_1.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "4",
+      "model_value": "4"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_11.v",
+      "parameter": "LPM_FFTYPE",
+      "to": "lpm_fftype",
+      "value": "\"DFF\"",
+      "model_value": "\"DFF\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_11.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "4",
+      "model_value": "4"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_12.v",
+      "parameter": "LPM_FFTYPE",
+      "to": "lpm_fftype",
+      "value": "\"DFF\"",
+      "model_value": "\"DFF\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_ff_12.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "4",
+      "model_value": "4"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_mux_6.v",
+      "parameter": "LPM_PIPELINE",
+      "to": "lpm_pipeline",
+      "value": "0",
+      "model_value": "0"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_mux_6.v",
+      "parameter": "LPM_SIZE",
+      "to": "lpm_size",
+      "value": "2",
+      "model_value": "2"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_mux_6.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "8",
+      "model_value": "8"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_mux_6.v",
+      "parameter": "LPM_WIDTHS",
+      "to": "lpm_widths",
+      "value": "1",
+      "model_value": "1"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "parameter": "LPM_ADDRESS_CONTROL",
+      "to": "lpm_address_control",
+      "value": "\"REGISTERED\"",
+      "model_value": "\"REGISTERED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "parameter": "LPM_FILE",
+      "to": "lpm_file",
+      "value": "\"control.mif\"",
+      "model_value": "\"control.mif\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "parameter": "LPM_NUMWORDS",
+      "to": "lpm_numwords",
+      "value": "16",
+      "model_value": "16"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "parameter": "LPM_OUTDATA",
+      "to": "lpm_outdata",
+      "value": "\"UNREGISTERED\"",
+      "model_value": "\"UNREGISTERED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "8",
+      "model_value": "8"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_12.v",
+      "parameter": "LPM_WIDTHAD",
+      "to": "lpm_widthad",
+      "value": "4",
+      "model_value": "4"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "parameter": "LPM_ADDRESS_CONTROL",
+      "to": "lpm_address_control",
+      "value": "\"REGISTERED\"",
+      "model_value": "\"REGISTERED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "parameter": "LPM_FILE",
+      "to": "lpm_file",
+      "value": "\"operations.mif\"",
+      "model_value": "\"operations.mif\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "parameter": "LPM_NUMWORDS",
+      "to": "lpm_numwords",
+      "value": "256",
+      "model_value": "256"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "parameter": "LPM_OUTDATA",
+      "to": "lpm_outdata",
+      "value": "\"UNREGISTERED\"",
+      "model_value": "\"UNREGISTERED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "8",
+      "model_value": "8"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_13.v",
+      "parameter": "LPM_WIDTHAD",
+      "to": "lpm_widthad",
+      "value": "8",
+      "model_value": "8"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "parameter": "LPM_ADDRESS_CONTROL",
+      "to": "lpm_address_control",
+      "value": "\"REGISTERED\"",
+      "model_value": "\"REGISTERED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "parameter": "LPM_FILE",
+      "to": "lpm_file",
+      "value": "\"operations.mif\"",
+      "model_value": "\"operations.mif\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "parameter": "LPM_NUMWORDS",
+      "to": "lpm_numwords",
+      "value": "256",
+      "model_value": "256"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "parameter": "LPM_OUTDATA",
+      "to": "lpm_outdata",
+      "value": "\"UNREGISTERED\"",
+      "model_value": "\"UNREGISTERED\""
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "parameter": "LPM_WIDTH",
+      "to": "lpm_width",
+      "value": "8",
+      "model_value": "8"
+    },
+    {
+      "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lpm_rom_14.v",
+      "parameter": "LPM_WIDTHAD",
+      "to": "lpm_widthad",
+      "value": "8",
+      "model_value": "8"
+    }
+  ],
+  "top_module_sha256_unchanged": "ea436f1b131d0d96913c0734fe660ef89a3cae550bfa234fd390a3d046a01e4a",
+  "rom_loader": "intel_mif"
+}

@@ -1,0 +1,144 @@
+{
+  "result": "PASS: all 21 implemented board pins and standards match QSF",
+  "utc": "2026-10-07T02:59Z",
+  "pins": {
+    "SW[0]": {
+      "pin": "AB28",
+      "direction": "input",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "SW[2]": {
+      "pin": "AC27",
+      "direction": "input",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "SW[1]": {
+      "pin": "AC28",
+      "direction": "input",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "SW[3]": {
+      "pin": "AD27",
+      "direction": "input",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "BUSY": {
+      "pin": "E21",
+      "direction": "output",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "INIT_DONE": {
+      "pin": "E22",
+      "direction": "output",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[4]": {
+      "pin": "K1",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[5]": {
+      "pin": "K2",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[3]": {
+      "pin": "K7",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[1]": {
+      "pin": "L1",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[2]": {
+      "pin": "L2",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[0]": {
+      "pin": "L3",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_EN": {
+      "pin": "L4",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_ON": {
+      "pin": "L5",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_RW": {
+      "pin": "M1",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_RS": {
+      "pin": "M2",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[6]": {
+      "pin": "M3",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "LCD_DATA[7]": {
+      "pin": "M5",
+      "direction": "output",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    },
+    "KEY[1]": {
+      "pin": "M21",
+      "direction": "input",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "KEY[0]": {
+      "pin": "M23",
+      "direction": "input",
+      "io_standard": "2.5 V",
+      "fixed_by_user": true
+    },
+    "CLOCK_50": {
+      "pin": "Y2",
+      "direction": "input",
+      "io_standard": "3.3-V LVTTL",
+      "fixed_by_user": true
+    }
+  },
+  "sha256": {
+    "lcd_de2_115_top.qsf": "d021f4aaeddfa2bc19fd19692b699e12636f0a786a9d5fd8f0c9bc9359733d54",
+    "lcd_de2_115_top.sdc": "881e04866c5429d9580466264b29416cd3f31450f773563117f0718fae112099",
+    "lcd_de2_115_top.bdf": "665a52e1e65e3e0d9a6f4e5a01643d0fc56f95c85d7c3a8f2c3d891e5d552fe6",
+    "lcd_de2_115_top.v": "6866a9fd6169b8fdfc64130a984a16c84e35b7990f796e5230d0042f81966679",
+    "debouncer.v": "aae012da3b571dcf24b3c7e1af6543cdee939329905ac7837caea421b6187b77",
+    "board_output_files/lcd_de2_115_top.pin": "b95323ec1c126e85357f7df60f3c8deafd0747d4e64072e9febbf35b95f05fdd",
+    "board_output_files/lcd_de2_115_top.map.rpt": "12877ed0591558d66d0643c0234a5d3bef7d55cc1fe98edea176b919df2ce037",
+    "board_output_files/lcd_de2_115_top.fit.rpt": "ec186569ea4cd00efa9bc708947ca2755138c0e2b9810aa1c3236b85f9664b71",
+    "board_output_files/lcd_de2_115_top.sta.rpt": "e145c02f0de53f39621072fad27838da63ed3552ea06ea08674698dcbd9d3118"
+  },
+  "directions_checked_against_top_interface": true
+}

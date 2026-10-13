@@ -1,0 +1,3 @@
+# Synchronous integration example; not a board-ready programming project.
+QUARTUS_VERSION = "25.1"
+PROJECT_REVISION = "lcd_example_top"

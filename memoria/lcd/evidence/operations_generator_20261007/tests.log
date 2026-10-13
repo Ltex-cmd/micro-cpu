@@ -1,0 +1,20 @@
+test_adding_names_preserves_the_nine_existing_slots (test_generate_operations.OperationsTests.test_adding_names_preserves_the_nine_existing_slots) ... ok
+test_all_sixteen_codes (test_generate_operations.OperationsTests.test_all_sixteen_codes) ... ok
+test_bad_input_preserves_existing_output (test_generate_operations.OperationsTests.test_bad_input_preserves_existing_output) ... ok
+test_bom_crlf_and_comment (test_generate_operations.OperationsTests.test_bom_crlf_and_comment) ... ok
+test_compiler_failure_preserves_existing_output (test_generate_operations.OperationsTests.test_compiler_failure_preserves_existing_output) ... ok
+test_control_byte_is_rejected (test_generate_operations.OperationsTests.test_control_byte_is_rejected) ... ok
+test_control_separator_cannot_create_an_extra_record (test_generate_operations.OperationsTests.test_control_separator_cannot_create_an_extra_record) ... ok
+test_duplicate_code_is_case_insensitive (test_generate_operations.OperationsTests.test_duplicate_code_is_case_insensitive) ... ok
+test_duplicate_empty_code_is_rejected (test_generate_operations.OperationsTests.test_duplicate_empty_code_is_rejected) ... ok
+test_embedded_tab_is_rejected (test_generate_operations.OperationsTests.test_embedded_tab_is_rejected) ... ok
+test_empty_map_is_rejected (test_generate_operations.OperationsTests.test_empty_map_is_rejected) ... ok
+test_high_opcode_boundary_and_padding (test_generate_operations.OperationsTests.test_high_opcode_boundary_and_padding) ... ok
+test_non_ascii_name_is_rejected (test_generate_operations.OperationsTests.test_non_ascii_name_is_rejected) ... ok
+test_outside_four_bit_range_is_rejected (test_generate_operations.OperationsTests.test_outside_four_bit_range_is_rejected) ... ok
+test_seventeenth_character_is_rejected (test_generate_operations.OperationsTests.test_seventeenth_character_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.227s
+
+OK

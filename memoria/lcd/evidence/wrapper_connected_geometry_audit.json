@@ -1,0 +1,555 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-10-07T03:04:56.515870+00:00",
+  "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_de2_115_top.bdf",
+  "source_sha256": "665a52e1e65e3e0d9a6f4e5a01643d0fc56f95c85d7c3a8f2c3d891e5d552fe6",
+  "source_mtime_ns": 1791341798400097348,
+  "export": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_de2_115_top.v",
+  "export_sha256": "6866a9fd6169b8fdfc64130a984a16c84e35b7990f796e5230d0042f81966679",
+  "method": "Read-only geometric groups compared with complete expected endpoint sets; coincident external/module ports treated as direct connections; scalar/bus types and KEY tap identities checked. Equal labels never join distant groups. Real Quartus-exported HDL checked independently for register clocks, resets, data flow and public ports.",
+  "counts": {
+    "symbols": 14,
+    "all_ports": 80,
+    "expected_connected_ports": 63,
+    "logical_connection_groups": 25,
+    "direct_output_connections": 7,
+    "key_bus_taps": 2,
+    "export_checks": 18
+  },
+  "issues": [],
+  "geometry_checks": [
+    {
+      "signal": "CLOCK_50",
+      "width": 1,
+      "expected_ports": [
+        "BUTTON_FILTER.clk",
+        "SYNC_META.clock",
+        "SYNC_STABLE.clock",
+        "TOP.CLOCK_50",
+        "inst.CLOCK_50",
+        "inst1.CLK",
+        "inst2.CLK",
+        "inst3.CLK",
+        "inst4.CLK",
+        "inst5.CLK"
+      ],
+      "actual_matches": [
+        93
+      ],
+      "valid": true
+    },
+    {
+      "signal": "ONE",
+      "width": 1,
+      "expected_ports": [
+        "inst1.D",
+        "inst12.1"
+      ],
+      "actual_matches": [
+        90
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RESET_META",
+      "width": 1,
+      "expected_ports": [
+        "inst1.Q",
+        "inst2.D"
+      ],
+      "actual_matches": [
+        3
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RESET_N",
+      "width": 1,
+      "expected_ports": [
+        "BUTTON_FILTER.rst_n",
+        "inst.RESET_N",
+        "inst2.Q",
+        "inst3.CLRN",
+        "inst4.CLRN",
+        "inst5.CLRN",
+        "inst8.IN"
+      ],
+      "actual_matches": [
+        79
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEY_META",
+      "width": 1,
+      "expected_ports": [
+        "inst3.Q",
+        "inst4.D"
+      ],
+      "actual_matches": [
+        6
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEY_SYNC",
+      "width": 1,
+      "expected_ports": [
+        "BUTTON_FILTER.inb",
+        "inst4.Q"
+      ],
+      "actual_matches": [
+        94
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BUTTON_CLEAN",
+      "width": 1,
+      "expected_ports": [
+        "BUTTON_FILTER.outb",
+        "inst9.IN"
+      ],
+      "actual_matches": [
+        81
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RESET_HIGH",
+      "width": 1,
+      "expected_ports": [
+        "SYNC_META.aclr",
+        "SYNC_STABLE.aclr",
+        "inst8.OUT"
+      ],
+      "actual_matches": [
+        49
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BUTTON_PRESSED",
+      "width": 1,
+      "expected_ports": [
+        "inst11.IN1",
+        "inst5.D",
+        "inst9.OUT"
+      ],
+      "actual_matches": [
+        82
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BUTTON_PREV",
+      "width": 1,
+      "expected_ports": [
+        "inst10.IN",
+        "inst5.Q"
+      ],
+      "actual_matches": [
+        57
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BUTTON_PREV_N",
+      "width": 1,
+      "expected_ports": [
+        "inst10.OUT",
+        "inst11.IN2"
+      ],
+      "actual_matches": [
+        62
+      ],
+      "valid": true
+    },
+    {
+      "signal": "PRINT_PULSE",
+      "width": 1,
+      "expected_ports": [
+        "inst.PRINT",
+        "inst11.OUT"
+      ],
+      "actual_matches": [
+        83
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SW",
+      "width": 4,
+      "expected_ports": [
+        "SYNC_META.data",
+        "TOP.SW"
+      ],
+      "actual_matches": [
+        71
+      ],
+      "valid": true
+    },
+    {
+      "signal": "META_BUS",
+      "width": 4,
+      "expected_ports": [
+        "SYNC_META.q",
+        "SYNC_STABLE.data"
+      ],
+      "actual_matches": [
+        88
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SYNC_Q",
+      "width": 4,
+      "expected_ports": [
+        "SYNC_STABLE.q",
+        "inst.OPCODE"
+      ],
+      "actual_matches": [
+        80
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEY_INPUT_BUS",
+      "width": 2,
+      "expected_ports": [
+        "TOP.KEY"
+      ],
+      "actual_matches": [
+        73
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEY[0]",
+      "width": 1,
+      "expected_ports": [
+        "inst1.CLRN",
+        "inst2.CLRN"
+      ],
+      "actual_matches": [
+        76
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEY[1]",
+      "width": 1,
+      "expected_ports": [
+        "inst3.D"
+      ],
+      "actual_matches": [
+        78
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA",
+      "width": 8,
+      "expected_ports": [
+        "TOP.LCD_DATA",
+        "inst.LCD_DATA"
+      ],
+      "actual_matches": [
+        "direct:(984, 344)"
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_EN",
+      "width": 1,
+      "expected_ports": [
+        "TOP.LCD_EN",
+        "inst.LCD_EN"
+      ],
+      "actual_matches": [
+        "direct:(984, 360)"
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_RS",
+      "width": 1,
+      "expected_ports": [
+        "TOP.LCD_RS",
+        "inst.LCD_RS"
+      ],
+      "actual_matches": [
+        "direct:(984, 376)"
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_RW",
+      "width": 1,
+      "expected_ports": [
+        "TOP.LCD_RW",
+        "inst.LCD_RW"
+      ],
+      "actual_matches": [
+        "direct:(984, 392)"
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_ON",
+      "width": 1,
+      "expected_ports": [
+        "TOP.LCD_ON",
+        "inst.LCD_ON"
+      ],
+      "actual_matches": [
+        "direct:(984, 408)"
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BUSY",
+      "width": 1,
+      "expected_ports": [
+        "TOP.BUSY",
+        "inst.BUSY"
+      ],
+      "actual_matches": [
+        "direct:(984, 424)"
+      ],
+      "valid": true
+    },
+    {
+      "signal": "INIT_DONE",
+      "width": 1,
+      "expected_ports": [
+        "TOP.INIT_DONE",
+        "inst.INIT_DONE"
+      ],
+      "actual_matches": [
+        "direct:(984, 440)"
+      ],
+      "valid": true
+    }
+  ],
+  "bus_taps": [
+    {
+      "point": [
+        168,
+        184
+      ],
+      "bus_labels": [],
+      "wire_labels": [
+        "KEY[0]"
+      ],
+      "selected_bit": [
+        "KEY[0]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        168,
+        248
+      ],
+      "bus_labels": [],
+      "wire_labels": [
+        "KEY[1]"
+      ],
+      "selected_bit": [
+        "KEY[1]"
+      ],
+      "valid": true
+    }
+  ],
+  "direct_output_connections": [
+    {
+      "component": "direct:(984, 344)",
+      "ports": [
+        "TOP.LCD_DATA",
+        "inst.LCD_DATA"
+      ],
+      "bus": true,
+      "labels": [],
+      "point": [
+        984,
+        344
+      ]
+    },
+    {
+      "component": "direct:(984, 360)",
+      "ports": [
+        "TOP.LCD_EN",
+        "inst.LCD_EN"
+      ],
+      "bus": false,
+      "labels": [],
+      "point": [
+        984,
+        360
+      ]
+    },
+    {
+      "component": "direct:(984, 376)",
+      "ports": [
+        "TOP.LCD_RS",
+        "inst.LCD_RS"
+      ],
+      "bus": false,
+      "labels": [],
+      "point": [
+        984,
+        376
+      ]
+    },
+    {
+      "component": "direct:(984, 392)",
+      "ports": [
+        "TOP.LCD_RW",
+        "inst.LCD_RW"
+      ],
+      "bus": false,
+      "labels": [],
+      "point": [
+        984,
+        392
+      ]
+    },
+    {
+      "component": "direct:(984, 408)",
+      "ports": [
+        "TOP.LCD_ON",
+        "inst.LCD_ON"
+      ],
+      "bus": false,
+      "labels": [],
+      "point": [
+        984,
+        408
+      ]
+    },
+    {
+      "component": "direct:(984, 424)",
+      "ports": [
+        "TOP.BUSY",
+        "inst.BUSY"
+      ],
+      "bus": false,
+      "labels": [],
+      "point": [
+        984,
+        424
+      ]
+    },
+    {
+      "component": "direct:(984, 440)",
+      "ports": [
+        "TOP.INIT_DONE",
+        "inst.INIT_DONE"
+      ],
+      "bus": false,
+      "labels": [],
+      "point": [
+        984,
+        440
+      ]
+    }
+  ],
+  "export_checks": [
+    {
+      "name": "core_instance_ports",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "button_filter_ports",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "debounce_width_19",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "scalar_key_sync",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "external_bus_widths",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "constant_one",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "assign_SYNTHESIZED_WIRE_1",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "assign_PRINT_PULSE",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "assign_SYNTHESIZED_WIRE_5",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "assign_BUTTON_PRESSED",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "ff_DFF_inst1",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "ff_RESET_N",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "ff_DFF_inst3",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "ff_KEY_SYNC",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "ff_DFF_inst5",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "opcode_meta_ports",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "opcode_stable_ports",
+      "valid": true,
+      "details": null
+    },
+    {
+      "name": "both_opcode_register_widths",
+      "valid": true,
+      "details": null
+    }
+  ],
+  "limitations": [
+    "Does not replace Quartus compilation or functional simulation.",
+    "The exported lpm_ff_0 and lpm_ff_1 modules are black-box declarations; Icarus requires the matching behavioral simulation models.",
+    "Debouncer implementation and its reset behavior are not reverified by this wrapper-only audit."
+  ]
+}

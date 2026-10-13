@@ -1,0 +1,15 @@
+test_bus_tap_selects_only_one_bit (test_audit_bdf_export.BusTapTests.test_bus_tap_selects_only_one_bit) ... ok
+test_bus_width_at_port_is_checked (test_audit_bdf_export.BusTapTests.test_bus_width_at_port_is_checked) ... ok
+test_bus_wire_crossing_is_not_implicitly_a_tap (test_audit_bdf_export.BusTapTests.test_bus_wire_crossing_is_not_implicitly_a_tap) ... ok
+test_concat_preserves_order_and_distinct_taps (test_audit_bdf_export.BusTapTests.test_concat_preserves_order_and_distinct_taps) ... ok
+test_out_of_bundle_tap_fails (test_audit_bdf_export.BusTapTests.test_out_of_bundle_tap_fails) ... ok
+test_reversed_bus_order_is_rejected (test_audit_bdf_export.BusTapTests.test_reversed_bus_order_is_rejected) ... ok
+test_scalar_short_between_bus_bits_fails (test_audit_bdf_export.BusTapTests.test_scalar_short_between_bus_bits_fails) ... ok
+test_tap_between_differently_sized_buses (test_audit_bdf_export.BusTapTests.test_tap_between_differently_sized_buses) ... ok
+test_unnamed_tap_is_not_guessed (test_audit_bdf_export.BusTapTests.test_unnamed_tap_is_not_guessed) ... ok
+test_wire_crossing_requires_junction (test_audit_bdf_export.BusTapTests.test_wire_crossing_requires_junction) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

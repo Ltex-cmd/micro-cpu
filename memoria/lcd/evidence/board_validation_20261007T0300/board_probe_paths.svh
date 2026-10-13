@@ -1,0 +1,2 @@
+`define BOARD_FILTER dut.b2v_BUTTON_FILTER
+`define BOARD_SYNC_BUS {dut.KEY_SYNC, dut.SYNC_Q[3:0]}

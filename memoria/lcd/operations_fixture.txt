@@ -1,0 +1,13 @@
+# FIXTURE DE TESTE: este mapa nao afirma a ISA real da micro-CPU.
+# Confirmar a associacao opcode -> operacao com o usuario antes da integracao.
+# Quatro bits binarios, espaco e nome ASCII de ate 16 caracteres.
+# OpCodes 1001..1111 ficam inteiramente preenchidos com espacos.
+0000 ADD
+0001 SUB
+0010 MUL
+0011 DIV
+0100 MOD
+0101 AND
+0110 OR
+0111 XOR
+1000 JMP

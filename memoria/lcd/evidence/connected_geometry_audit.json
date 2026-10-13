@@ -1,0 +1,8168 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-10-07T03:04:56.734604+00:00",
+  "source": "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/lcd_operation_display.bdf",
+  "source_sha256": "7e165474f92b6c49520b716efdea7d89fc4c23aed9801a0de36c8a491b67faa5",
+  "source_mtime_ns": 1791340090418829965,
+  "method": "Geometric segments and explicit junctions; separate scalar/bus components; per-bit unions only at physically touching, named bus taps. Equal labels on distant components are never joined. Every expected original endpoint and every optional port is checked.",
+  "limitations": [
+    "Read-only BDF geometry audit; compilation and simulation results are separate.",
+    "Symbol bounding rectangles conservatively approximate visible bodies."
+  ],
+  "counts": {
+    "segments": 363,
+    "symbols": 34,
+    "all_ports": 179,
+    "expected_connected_ports": 110,
+    "checked_connected_ports": 110,
+    "checked_signal_bits": 154,
+    "bus_taps": 26
+  },
+  "issues": [],
+  "port_checks": [
+    {
+      "key": "TOP.CLOCK_50",
+      "name": "CLOCK_50",
+      "direction": "input",
+      "point": [
+        -392,
+        168
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.RESET_N",
+      "name": "RESET_N",
+      "direction": "input",
+      "point": [
+        -400,
+        240
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET_N"
+      ],
+      "actual_bits": [
+        "RESET_N"
+      ],
+      "components": [
+        152
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.OPCODE",
+      "name": "OPCODE[3..0]",
+      "direction": "input",
+      "point": [
+        -392,
+        304
+      ],
+      "width": 4,
+      "expected_bits": [
+        "OPCODE[3]",
+        "OPCODE[2]",
+        "OPCODE[1]",
+        "OPCODE[0]"
+      ],
+      "actual_bits": [
+        "OPCODE[3]",
+        "OPCODE[2]",
+        "OPCODE[1]",
+        "OPCODE[0]"
+      ],
+      "components": [
+        160
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.PRINT",
+      "name": "PRINT",
+      "direction": "input",
+      "point": [
+        -392,
+        384
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT"
+      ],
+      "actual_bits": [
+        "PRINT"
+      ],
+      "components": [
+        226
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.LCD_DATA",
+      "name": "LCD_DATA[7..0]",
+      "direction": "output",
+      "point": [
+        1696,
+        1032
+      ],
+      "width": 8,
+      "expected_bits": [
+        "LCD_DATA[7]",
+        "LCD_DATA[6]",
+        "LCD_DATA[5]",
+        "LCD_DATA[4]",
+        "LCD_DATA[3]",
+        "LCD_DATA[2]",
+        "LCD_DATA[1]",
+        "LCD_DATA[0]"
+      ],
+      "actual_bits": [
+        "LCD_DATA[7]",
+        "LCD_DATA[6]",
+        "LCD_DATA[5]",
+        "LCD_DATA[4]",
+        "LCD_DATA[3]",
+        "LCD_DATA[2]",
+        "LCD_DATA[1]",
+        "LCD_DATA[0]"
+      ],
+      "components": [
+        29
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.LCD_EN",
+      "name": "LCD_EN",
+      "direction": "output",
+      "point": [
+        1704,
+        1096
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_EN"
+      ],
+      "actual_bits": [
+        "LCD_EN"
+      ],
+      "components": [
+        292
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.LCD_RS",
+      "name": "LCD_RS",
+      "direction": "output",
+      "point": [
+        1704,
+        1152
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_RS"
+      ],
+      "actual_bits": [
+        "LCD_RS"
+      ],
+      "components": [
+        294
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.LCD_RW",
+      "name": "LCD_RW",
+      "direction": "output",
+      "point": [
+        1704,
+        1208
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_RW"
+      ],
+      "actual_bits": [
+        "LCD_RW"
+      ],
+      "components": [
+        301
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.LCD_ON",
+      "name": "LCD_ON",
+      "direction": "output",
+      "point": [
+        1704,
+        1264
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_ON"
+      ],
+      "actual_bits": [
+        "LCD_ON"
+      ],
+      "components": [
+        349
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.BUSY",
+      "name": "BUSY",
+      "direction": "output",
+      "point": [
+        1704,
+        1328
+      ],
+      "width": 1,
+      "expected_bits": [
+        "BUSY"
+      ],
+      "actual_bits": [
+        "BUSY"
+      ],
+      "components": [
+        258
+      ],
+      "valid": true
+    },
+    {
+      "key": "TOP.INIT_DONE",
+      "name": "INIT_DONE",
+      "direction": "output",
+      "point": [
+        1704,
+        1384
+      ],
+      "width": 1,
+      "expected_bits": [
+        "INIT_DONE"
+      ],
+      "actual_bits": [
+        "INIT_DONE"
+      ],
+      "components": [
+        304
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_FRAME_END.dataa",
+      "name": "dataa[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        872,
+        600
+      ],
+      "width": 19,
+      "expected_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "actual_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "components": [
+        44
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_FRAME_END.datab",
+      "name": "datab[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        872,
+        616
+      ],
+      "width": 19,
+      "expected_bits": [
+        "KEND[18]",
+        "KEND[17]",
+        "KEND[16]",
+        "KEND[15]",
+        "KEND[14]",
+        "KEND[13]",
+        "KEND[12]",
+        "KEND[11]",
+        "KEND[10]",
+        "KEND[9]",
+        "KEND[8]",
+        "KEND[7]",
+        "KEND[6]",
+        "KEND[5]",
+        "KEND[4]",
+        "KEND[3]",
+        "KEND[2]",
+        "KEND[1]",
+        "KEND[0]"
+      ],
+      "actual_bits": [
+        "KEND[18]",
+        "KEND[17]",
+        "KEND[16]",
+        "KEND[15]",
+        "KEND[14]",
+        "KEND[13]",
+        "KEND[12]",
+        "KEND[11]",
+        "KEND[10]",
+        "KEND[9]",
+        "KEND[8]",
+        "KEND[7]",
+        "KEND[6]",
+        "KEND[5]",
+        "KEND[4]",
+        "KEND[3]",
+        "KEND[2]",
+        "KEND[1]",
+        "KEND[0]"
+      ],
+      "components": [
+        359
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_FRAME_END.aeb",
+      "name": "aeb",
+      "direction": "output",
+      "point": [
+        1000,
+        584
+      ],
+      "width": 1,
+      "expected_bits": [
+        "FRAME_END"
+      ],
+      "actual_bits": [
+        "FRAME_END"
+      ],
+      "components": [
+        101
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_LT100.dataa",
+      "name": "dataa[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        432,
+        600
+      ],
+      "width": 19,
+      "expected_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "actual_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "components": [
+        44
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_LT100.datab",
+      "name": "datab[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        432,
+        616
+      ],
+      "width": 19,
+      "expected_bits": [
+        "K100[18]",
+        "K100[17]",
+        "K100[16]",
+        "K100[15]",
+        "K100[14]",
+        "K100[13]",
+        "K100[12]",
+        "K100[11]",
+        "K100[10]",
+        "K100[9]",
+        "K100[8]",
+        "K100[7]",
+        "K100[6]",
+        "K100[5]",
+        "K100[4]",
+        "K100[3]",
+        "K100[2]",
+        "K100[1]",
+        "K100[0]"
+      ],
+      "actual_bits": [
+        "K100[18]",
+        "K100[17]",
+        "K100[16]",
+        "K100[15]",
+        "K100[14]",
+        "K100[13]",
+        "K100[12]",
+        "K100[11]",
+        "K100[10]",
+        "K100[9]",
+        "K100[8]",
+        "K100[7]",
+        "K100[6]",
+        "K100[5]",
+        "K100[4]",
+        "K100[3]",
+        "K100[2]",
+        "K100[1]",
+        "K100[0]"
+      ],
+      "components": [
+        362
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_LT100.alb",
+      "name": "alb",
+      "direction": "output",
+      "point": [
+        560,
+        568
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LT100"
+      ],
+      "actual_bits": [
+        "LT100"
+      ],
+      "components": [
+        339
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_GE50.dataa",
+      "name": "dataa[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        0,
+        600
+      ],
+      "width": 19,
+      "expected_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "actual_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "components": [
+        44
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_GE50.datab",
+      "name": "datab[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        0,
+        616
+      ],
+      "width": 19,
+      "expected_bits": [
+        "FIFTY_CONST[18]",
+        "FIFTY_CONST[17]",
+        "FIFTY_CONST[16]",
+        "FIFTY_CONST[15]",
+        "FIFTY_CONST[14]",
+        "FIFTY_CONST[13]",
+        "FIFTY_CONST[12]",
+        "FIFTY_CONST[11]",
+        "FIFTY_CONST[10]",
+        "FIFTY_CONST[9]",
+        "FIFTY_CONST[8]",
+        "FIFTY_CONST[7]",
+        "FIFTY_CONST[6]",
+        "FIFTY_CONST[5]",
+        "FIFTY_CONST[4]",
+        "FIFTY_CONST[3]",
+        "FIFTY_CONST[2]",
+        "FIFTY_CONST[1]",
+        "FIFTY_CONST[0]"
+      ],
+      "actual_bits": [
+        "FIFTY_CONST[18]",
+        "FIFTY_CONST[17]",
+        "FIFTY_CONST[16]",
+        "FIFTY_CONST[15]",
+        "FIFTY_CONST[14]",
+        "FIFTY_CONST[13]",
+        "FIFTY_CONST[12]",
+        "FIFTY_CONST[11]",
+        "FIFTY_CONST[10]",
+        "FIFTY_CONST[9]",
+        "FIFTY_CONST[8]",
+        "FIFTY_CONST[7]",
+        "FIFTY_CONST[6]",
+        "FIFTY_CONST[5]",
+        "FIFTY_CONST[4]",
+        "FIFTY_CONST[3]",
+        "FIFTY_CONST[2]",
+        "FIFTY_CONST[1]",
+        "FIFTY_CONST[0]"
+      ],
+      "components": [
+        45
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_GE50.ageb",
+      "name": "ageb",
+      "direction": "output",
+      "point": [
+        128,
+        616
+      ],
+      "width": 1,
+      "expected_bits": [
+        "GE50"
+      ],
+      "actual_bits": [
+        "GE50"
+      ],
+      "components": [
+        223
+      ],
+      "valid": true
+    },
+    {
+      "key": "TIMER.clock",
+      "name": "clock",
+      "direction": "input",
+      "point": [
+        256,
+        296
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "TIMER.aclr",
+      "name": "aclr",
+      "direction": "input",
+      "point": [
+        328,
+        368
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET"
+      ],
+      "actual_bits": [
+        "RESET"
+      ],
+      "components": [
+        342
+      ],
+      "valid": true
+    },
+    {
+      "key": "TIMER.sclr",
+      "name": "sclr",
+      "direction": "input",
+      "point": [
+        256,
+        200
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ACCEPT"
+      ],
+      "actual_bits": [
+        "ACCEPT"
+      ],
+      "components": [
+        227
+      ],
+      "valid": true
+    },
+    {
+      "key": "TIMER.q",
+      "name": "q[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        392,
+        264
+      ],
+      "width": 19,
+      "expected_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "actual_bits": [
+        "TIMER_Q[18]",
+        "TIMER_Q[17]",
+        "TIMER_Q[16]",
+        "TIMER_Q[15]",
+        "TIMER_Q[14]",
+        "TIMER_Q[13]",
+        "TIMER_Q[12]",
+        "TIMER_Q[11]",
+        "TIMER_Q[10]",
+        "TIMER_Q[9]",
+        "TIMER_Q[8]",
+        "TIMER_Q[7]",
+        "TIMER_Q[6]",
+        "TIMER_Q[5]",
+        "TIMER_Q[4]",
+        "TIMER_Q[3]",
+        "TIMER_Q[2]",
+        "TIMER_Q[1]",
+        "TIMER_Q[0]"
+      ],
+      "components": [
+        44
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.sload",
+      "name": "sload",
+      "direction": "input",
+      "point": [
+        720,
+        216
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ACCEPT"
+      ],
+      "actual_bits": [
+        "ACCEPT"
+      ],
+      "components": [
+        227
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.data",
+      "name": "data[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        720,
+        248
+      ],
+      "width": 5,
+      "expected_bits": [
+        "K15[4]",
+        "K15[3]",
+        "K15[2]",
+        "K15[1]",
+        "K15[0]"
+      ],
+      "actual_bits": [
+        "K15[4]",
+        "K15[3]",
+        "K15[2]",
+        "K15[1]",
+        "K15[0]"
+      ],
+      "components": [
+        191
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.clock",
+      "name": "clock",
+      "direction": "input",
+      "point": [
+        720,
+        296
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.aclr",
+      "name": "aclr",
+      "direction": "input",
+      "point": [
+        792,
+        368
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET"
+      ],
+      "actual_bits": [
+        "RESET"
+      ],
+      "components": [
+        342
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.sset",
+      "name": "sset",
+      "direction": "input",
+      "point": [
+        720,
+        232
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RETURN_IDLE"
+      ],
+      "actual_bits": [
+        "RETURN_IDLE"
+      ],
+      "components": [
+        111
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.cnt_en",
+      "name": "cnt_en",
+      "direction": "input",
+      "point": [
+        720,
+        328
+      ],
+      "width": 1,
+      "expected_bits": [
+        "BYTE_ADVANCE"
+      ],
+      "actual_bits": [
+        "BYTE_ADVANCE"
+      ],
+      "components": [
+        106
+      ],
+      "valid": true
+    },
+    {
+      "key": "SLOT.q",
+      "name": "q[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        856,
+        264
+      ],
+      "width": 5,
+      "expected_bits": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "components": [
+        283
+      ],
+      "valid": true
+    },
+    {
+      "key": "CONST_50.result",
+      "name": "result[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        -232,
+        616
+      ],
+      "width": 19,
+      "expected_bits": [
+        "FIFTY_CONST[18]",
+        "FIFTY_CONST[17]",
+        "FIFTY_CONST[16]",
+        "FIFTY_CONST[15]",
+        "FIFTY_CONST[14]",
+        "FIFTY_CONST[13]",
+        "FIFTY_CONST[12]",
+        "FIFTY_CONST[11]",
+        "FIFTY_CONST[10]",
+        "FIFTY_CONST[9]",
+        "FIFTY_CONST[8]",
+        "FIFTY_CONST[7]",
+        "FIFTY_CONST[6]",
+        "FIFTY_CONST[5]",
+        "FIFTY_CONST[4]",
+        "FIFTY_CONST[3]",
+        "FIFTY_CONST[2]",
+        "FIFTY_CONST[1]",
+        "FIFTY_CONST[0]"
+      ],
+      "actual_bits": [
+        "FIFTY_CONST[18]",
+        "FIFTY_CONST[17]",
+        "FIFTY_CONST[16]",
+        "FIFTY_CONST[15]",
+        "FIFTY_CONST[14]",
+        "FIFTY_CONST[13]",
+        "FIFTY_CONST[12]",
+        "FIFTY_CONST[11]",
+        "FIFTY_CONST[10]",
+        "FIFTY_CONST[9]",
+        "FIFTY_CONST[8]",
+        "FIFTY_CONST[7]",
+        "FIFTY_CONST[6]",
+        "FIFTY_CONST[5]",
+        "FIFTY_CONST[4]",
+        "FIFTY_CONST[3]",
+        "FIFTY_CONST[2]",
+        "FIFTY_CONST[1]",
+        "FIFTY_CONST[0]"
+      ],
+      "components": [
+        45
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst2.result",
+      "name": "result[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        328,
+        648
+      ],
+      "width": 19,
+      "expected_bits": [
+        "K100[18]",
+        "K100[17]",
+        "K100[16]",
+        "K100[15]",
+        "K100[14]",
+        "K100[13]",
+        "K100[12]",
+        "K100[11]",
+        "K100[10]",
+        "K100[9]",
+        "K100[8]",
+        "K100[7]",
+        "K100[6]",
+        "K100[5]",
+        "K100[4]",
+        "K100[3]",
+        "K100[2]",
+        "K100[1]",
+        "K100[0]"
+      ],
+      "actual_bits": [
+        "K100[18]",
+        "K100[17]",
+        "K100[16]",
+        "K100[15]",
+        "K100[14]",
+        "K100[13]",
+        "K100[12]",
+        "K100[11]",
+        "K100[10]",
+        "K100[9]",
+        "K100[8]",
+        "K100[7]",
+        "K100[6]",
+        "K100[5]",
+        "K100[4]",
+        "K100[3]",
+        "K100[2]",
+        "K100[1]",
+        "K100[0]"
+      ],
+      "components": [
+        362
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst3.result",
+      "name": "result[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        840,
+        536
+      ],
+      "width": 19,
+      "expected_bits": [
+        "KEND[18]",
+        "KEND[17]",
+        "KEND[16]",
+        "KEND[15]",
+        "KEND[14]",
+        "KEND[13]",
+        "KEND[12]",
+        "KEND[11]",
+        "KEND[10]",
+        "KEND[9]",
+        "KEND[8]",
+        "KEND[7]",
+        "KEND[6]",
+        "KEND[5]",
+        "KEND[4]",
+        "KEND[3]",
+        "KEND[2]",
+        "KEND[1]",
+        "KEND[0]"
+      ],
+      "actual_bits": [
+        "KEND[18]",
+        "KEND[17]",
+        "KEND[16]",
+        "KEND[15]",
+        "KEND[14]",
+        "KEND[13]",
+        "KEND[12]",
+        "KEND[11]",
+        "KEND[10]",
+        "KEND[9]",
+        "KEND[8]",
+        "KEND[7]",
+        "KEND[6]",
+        "KEND[5]",
+        "KEND[4]",
+        "KEND[3]",
+        "KEND[2]",
+        "KEND[1]",
+        "KEND[0]"
+      ],
+      "components": [
+        359
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst4.result",
+      "name": "result[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        1048,
+        32
+      ],
+      "width": 5,
+      "expected_bits": [
+        "K15[4]",
+        "K15[3]",
+        "K15[2]",
+        "K15[1]",
+        "K15[0]"
+      ],
+      "actual_bits": [
+        "K15[4]",
+        "K15[3]",
+        "K15[2]",
+        "K15[1]",
+        "K15[0]"
+      ],
+      "components": [
+        191
+      ],
+      "valid": true
+    },
+    {
+      "key": "ROM_CONTROL.address",
+      "name": "address[LPM_WIDTHAD-1..0]",
+      "direction": "input",
+      "point": [
+        -16,
+        976
+      ],
+      "width": 4,
+      "expected_bits": [
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "components": [
+        306
+      ],
+      "valid": true
+    },
+    {
+      "key": "ROM_CONTROL.inclock",
+      "name": "inclock",
+      "direction": "input",
+      "point": [
+        -16,
+        992
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "ROM_CONTROL.q",
+      "name": "q[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        96,
+        1000
+      ],
+      "width": 8,
+      "expected_bits": [
+        "CTRL_DATA[7]",
+        "CTRL_DATA[6]",
+        "CTRL_DATA[5]",
+        "CTRL_DATA[4]",
+        "CTRL_DATA[3]",
+        "CTRL_DATA[2]",
+        "CTRL_DATA[1]",
+        "CTRL_DATA[0]"
+      ],
+      "actual_bits": [
+        "CTRL_DATA[7]",
+        "CTRL_DATA[6]",
+        "CTRL_DATA[5]",
+        "CTRL_DATA[4]",
+        "CTRL_DATA[3]",
+        "CTRL_DATA[2]",
+        "CTRL_DATA[1]",
+        "CTRL_DATA[0]"
+      ],
+      "components": [
+        26
+      ],
+      "valid": true
+    },
+    {
+      "key": "ROM_OPERATIONS.address",
+      "name": "address[LPM_WIDTHAD-1..0]",
+      "direction": "input",
+      "point": [
+        736,
+        984
+      ],
+      "width": 8,
+      "expected_bits": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "actual_bits": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "components": [
+        327
+      ],
+      "valid": true
+    },
+    {
+      "key": "ROM_OPERATIONS.inclock",
+      "name": "inclock",
+      "direction": "input",
+      "point": [
+        736,
+        1000
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "ROM_OPERATIONS.q",
+      "name": "q[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        848,
+        1008
+      ],
+      "width": 8,
+      "expected_bits": [
+        "TEXT_DATA[7]",
+        "TEXT_DATA[6]",
+        "TEXT_DATA[5]",
+        "TEXT_DATA[4]",
+        "TEXT_DATA[3]",
+        "TEXT_DATA[2]",
+        "TEXT_DATA[1]",
+        "TEXT_DATA[0]"
+      ],
+      "actual_bits": [
+        "TEXT_DATA[7]",
+        "TEXT_DATA[6]",
+        "TEXT_DATA[5]",
+        "TEXT_DATA[4]",
+        "TEXT_DATA[3]",
+        "TEXT_DATA[2]",
+        "TEXT_DATA[1]",
+        "TEXT_DATA[0]"
+      ],
+      "components": [
+        20
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_SLOT5.dataa",
+      "name": "dataa[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        1360,
+        248
+      ],
+      "width": 5,
+      "expected_bits": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "components": [
+        283
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_SLOT5.datab",
+      "name": "datab[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        1360,
+        264
+      ],
+      "width": 5,
+      "expected_bits": [
+        "FIVE_CONST[4]",
+        "FIVE_CONST[3]",
+        "FIVE_CONST[2]",
+        "FIVE_CONST[1]",
+        "FIVE_CONST[0]"
+      ],
+      "actual_bits": [
+        "FIVE_CONST[4]",
+        "FIVE_CONST[3]",
+        "FIVE_CONST[2]",
+        "FIVE_CONST[1]",
+        "FIVE_CONST[0]"
+      ],
+      "components": [
+        140
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_SLOT5.ageb",
+      "name": "ageb",
+      "direction": "output",
+      "point": [
+        1488,
+        264
+      ],
+      "width": 1,
+      "expected_bits": [
+        "STATE_GE5"
+      ],
+      "actual_bits": [
+        "STATE_GE5"
+      ],
+      "components": [
+        123
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_IDLE.dataa",
+      "name": "dataa[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        1560,
+        712
+      ],
+      "width": 5,
+      "expected_bits": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ],
+      "components": [
+        283
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_IDLE.datab",
+      "name": "datab[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        1560,
+        728
+      ],
+      "width": 5,
+      "expected_bits": [
+        "K13[4]",
+        "K13[3]",
+        "K13[2]",
+        "K13[1]",
+        "K13[0]"
+      ],
+      "actual_bits": [
+        "K13[4]",
+        "K13[3]",
+        "K13[2]",
+        "K13[1]",
+        "K13[0]"
+      ],
+      "components": [
+        120
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_IDLE.aeb",
+      "name": "aeb",
+      "direction": "output",
+      "point": [
+        1688,
+        696
+      ],
+      "width": 1,
+      "expected_bits": [
+        "IDLE"
+      ],
+      "actual_bits": [
+        "IDLE"
+      ],
+      "components": [
+        332
+      ],
+      "valid": true
+    },
+    {
+      "key": "CMP_IDLE.ageb",
+      "name": "ageb",
+      "direction": "output",
+      "point": [
+        1688,
+        728
+      ],
+      "width": 1,
+      "expected_bits": [
+        "INIT_DONE"
+      ],
+      "actual_bits": [
+        "INIT_DONE"
+      ],
+      "components": [
+        304
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst8.result",
+      "name": "result[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        1208,
+        168
+      ],
+      "width": 5,
+      "expected_bits": [
+        "FIVE_CONST[4]",
+        "FIVE_CONST[3]",
+        "FIVE_CONST[2]",
+        "FIVE_CONST[1]",
+        "FIVE_CONST[0]"
+      ],
+      "actual_bits": [
+        "FIVE_CONST[4]",
+        "FIVE_CONST[3]",
+        "FIVE_CONST[2]",
+        "FIVE_CONST[1]",
+        "FIVE_CONST[0]"
+      ],
+      "components": [
+        140
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst9.result",
+      "name": "result[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        1448,
+        528
+      ],
+      "width": 5,
+      "expected_bits": [
+        "K13[4]",
+        "K13[3]",
+        "K13[2]",
+        "K13[1]",
+        "K13[0]"
+      ],
+      "actual_bits": [
+        "K13[4]",
+        "K13[3]",
+        "K13[2]",
+        "K13[1]",
+        "K13[0]"
+      ],
+      "components": [
+        120
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst10.IN1",
+      "name": "IN1",
+      "direction": "input",
+      "point": [
+        1064,
+        336
+      ],
+      "width": 1,
+      "expected_bits": [
+        "FRAME_END"
+      ],
+      "actual_bits": [
+        "FRAME_END"
+      ],
+      "components": [
+        101
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst10.IN2",
+      "name": "IN2",
+      "direction": "input",
+      "point": [
+        1064,
+        352
+      ],
+      "width": 1,
+      "expected_bits": [
+        "BUSY"
+      ],
+      "actual_bits": [
+        "BUSY"
+      ],
+      "components": [
+        258
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst10.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1128,
+        344
+      ],
+      "width": 1,
+      "expected_bits": [
+        "BYTE_ADVANCE"
+      ],
+      "actual_bits": [
+        "BYTE_ADVANCE"
+      ],
+      "components": [
+        106
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst11.IN1",
+      "name": "IN1",
+      "direction": "input",
+      "point": [
+        1296,
+        376
+      ],
+      "width": 1,
+      "expected_bits": [
+        "FRAME_END"
+      ],
+      "actual_bits": [
+        "FRAME_END"
+      ],
+      "components": [
+        101
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst11.IN2",
+      "name": "IN2",
+      "direction": "input",
+      "point": [
+        1296,
+        392
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT31"
+      ],
+      "actual_bits": [
+        "SLOT31"
+      ],
+      "components": [
+        270
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst11.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1360,
+        384
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RETURN_IDLE"
+      ],
+      "actual_bits": [
+        "RETURN_IDLE"
+      ],
+      "components": [
+        111
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst12.IN1",
+      "name": "IN1",
+      "direction": "input",
+      "point": [
+        1672,
+        336
+      ],
+      "width": 1,
+      "expected_bits": [
+        "STATE_GE5"
+      ],
+      "actual_bits": [
+        "STATE_GE5"
+      ],
+      "components": [
+        123
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst12.IN2",
+      "name": "IN2",
+      "direction": "input",
+      "point": [
+        1672,
+        352
+      ],
+      "width": 1,
+      "expected_bits": [
+        "BUSY"
+      ],
+      "actual_bits": [
+        "BUSY"
+      ],
+      "components": [
+        258
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst12.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1736,
+        344
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SEND_ACTIVE"
+      ],
+      "actual_bits": [
+        "SEND_ACTIVE"
+      ],
+      "components": [
+        148
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst.IN1",
+      "name": "IN1",
+      "direction": "input",
+      "point": [
+        1240,
+        632
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SEND_ACTIVE"
+      ],
+      "actual_bits": [
+        "SEND_ACTIVE"
+      ],
+      "components": [
+        148
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst.IN2",
+      "name": "IN2",
+      "direction": "input",
+      "point": [
+        1240,
+        640
+      ],
+      "width": 1,
+      "expected_bits": [
+        "GE50"
+      ],
+      "actual_bits": [
+        "GE50"
+      ],
+      "components": [
+        223
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst.IN3",
+      "name": "IN3",
+      "direction": "input",
+      "point": [
+        1240,
+        648
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LT100"
+      ],
+      "actual_bits": [
+        "LT100"
+      ],
+      "components": [
+        339
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1304,
+        640
+      ],
+      "width": 1,
+      "expected_bits": [
+        "EN_NEXT"
+      ],
+      "actual_bits": [
+        "EN_NEXT"
+      ],
+      "components": [
+        58
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst13.IN",
+      "name": "IN",
+      "direction": "input",
+      "point": [
+        568,
+        696
+      ],
+      "width": 1,
+      "expected_bits": [
+        "IDLE"
+      ],
+      "actual_bits": [
+        "IDLE"
+      ],
+      "components": [
+        332
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst13.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        616,
+        696
+      ],
+      "width": 1,
+      "expected_bits": [
+        "BUSY"
+      ],
+      "actual_bits": [
+        "BUSY"
+      ],
+      "components": [
+        258
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst14.IN",
+      "name": "IN",
+      "direction": "input",
+      "point": [
+        816,
+        696
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT_PREV"
+      ],
+      "actual_bits": [
+        "PRINT_PREV"
+      ],
+      "components": [
+        168
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst14.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        864,
+        696
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT_PREV_N"
+      ],
+      "actual_bits": [
+        "PRINT_PREV_N"
+      ],
+      "components": [
+        203
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst15.IN",
+      "name": "IN",
+      "direction": "input",
+      "point": [
+        1440,
+        832
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RST_N"
+      ],
+      "actual_bits": [
+        "RST_N"
+      ],
+      "components": [
+        178
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst15.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1488,
+        832
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET"
+      ],
+      "actual_bits": [
+        "RESET"
+      ],
+      "components": [
+        342
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst16.CLRN",
+      "name": "CLRN",
+      "direction": "input",
+      "point": [
+        1632,
+        504
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RST_N"
+      ],
+      "actual_bits": [
+        "RST_N"
+      ],
+      "components": [
+        178
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst16.CLK",
+      "name": "CLK",
+      "direction": "input",
+      "point": [
+        1600,
+        464
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst16.D",
+      "name": "D",
+      "direction": "input",
+      "point": [
+        1600,
+        448
+      ],
+      "width": 1,
+      "expected_bits": [
+        "EN_NEXT"
+      ],
+      "actual_bits": [
+        "EN_NEXT"
+      ],
+      "components": [
+        58
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst16.Q",
+      "name": "Q",
+      "direction": "output",
+      "point": [
+        1664,
+        448
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_EN"
+      ],
+      "actual_bits": [
+        "LCD_EN"
+      ],
+      "components": [
+        292
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst17.CLRN",
+      "name": "CLRN",
+      "direction": "input",
+      "point": [
+        656,
+        1160
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RST_N"
+      ],
+      "actual_bits": [
+        "RST_N"
+      ],
+      "components": [
+        178
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst17.CLK",
+      "name": "CLK",
+      "direction": "input",
+      "point": [
+        624,
+        1120
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst17.D",
+      "name": "D",
+      "direction": "input",
+      "point": [
+        624,
+        1104
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT"
+      ],
+      "actual_bits": [
+        "PRINT"
+      ],
+      "components": [
+        226
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst17.Q",
+      "name": "Q",
+      "direction": "output",
+      "point": [
+        688,
+        1104
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT_PREV"
+      ],
+      "actual_bits": [
+        "PRINT_PREV"
+      ],
+      "components": [
+        168
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst18.CLRN",
+      "name": "CLRN",
+      "direction": "input",
+      "point": [
+        1144,
+        1160
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET_N"
+      ],
+      "actual_bits": [
+        "RESET_N"
+      ],
+      "components": [
+        152
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst18.CLK",
+      "name": "CLK",
+      "direction": "input",
+      "point": [
+        1112,
+        1120
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst18.D",
+      "name": "D",
+      "direction": "input",
+      "point": [
+        1112,
+        1104
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ONE"
+      ],
+      "actual_bits": [
+        "ONE"
+      ],
+      "components": [
+        289
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst18.Q",
+      "name": "Q",
+      "direction": "output",
+      "point": [
+        1176,
+        1104
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET_STAGE1"
+      ],
+      "actual_bits": [
+        "RESET_STAGE1"
+      ],
+      "components": [
+        59
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst19.CLRN",
+      "name": "CLRN",
+      "direction": "input",
+      "point": [
+        1616,
+        1160
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET_N"
+      ],
+      "actual_bits": [
+        "RESET_N"
+      ],
+      "components": [
+        152
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst19.CLK",
+      "name": "CLK",
+      "direction": "input",
+      "point": [
+        1584,
+        1120
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst19.D",
+      "name": "D",
+      "direction": "input",
+      "point": [
+        1584,
+        1104
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET_STAGE1"
+      ],
+      "actual_bits": [
+        "RESET_STAGE1"
+      ],
+      "components": [
+        59
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst19.Q",
+      "name": "Q",
+      "direction": "output",
+      "point": [
+        1648,
+        1104
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RST_N"
+      ],
+      "actual_bits": [
+        "RST_N"
+      ],
+      "components": [
+        178
+      ],
+      "valid": true
+    },
+    {
+      "key": "OPCODE_LATCH.enable",
+      "name": "enable",
+      "direction": "input",
+      "point": [
+        1664,
+        976
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ACCEPT"
+      ],
+      "actual_bits": [
+        "ACCEPT"
+      ],
+      "components": [
+        227
+      ],
+      "valid": true
+    },
+    {
+      "key": "OPCODE_LATCH.clock",
+      "name": "clock",
+      "direction": "input",
+      "point": [
+        1664,
+        960
+      ],
+      "width": 1,
+      "expected_bits": [
+        "CLOCK_50"
+      ],
+      "actual_bits": [
+        "CLOCK_50"
+      ],
+      "components": [
+        164
+      ],
+      "valid": true
+    },
+    {
+      "key": "OPCODE_LATCH.aclr",
+      "name": "aclr",
+      "direction": "input",
+      "point": [
+        1752,
+        1016
+      ],
+      "width": 1,
+      "expected_bits": [
+        "RESET"
+      ],
+      "actual_bits": [
+        "RESET"
+      ],
+      "components": [
+        342
+      ],
+      "valid": true
+    },
+    {
+      "key": "OPCODE_LATCH.data",
+      "name": "data[LPM_WIDTH-1..0]",
+      "direction": "input",
+      "point": [
+        1664,
+        944
+      ],
+      "width": 4,
+      "expected_bits": [
+        "OPCODE[3]",
+        "OPCODE[2]",
+        "OPCODE[1]",
+        "OPCODE[0]"
+      ],
+      "actual_bits": [
+        "OPCODE[3]",
+        "OPCODE[2]",
+        "OPCODE[1]",
+        "OPCODE[0]"
+      ],
+      "components": [
+        160
+      ],
+      "valid": true
+    },
+    {
+      "key": "OPCODE_LATCH.q",
+      "name": "q[LPM_WIDTH-1..0]",
+      "direction": "output",
+      "point": [
+        1840,
+        960
+      ],
+      "width": 4,
+      "expected_bits": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]"
+      ],
+      "actual_bits": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]"
+      ],
+      "components": [
+        353
+      ],
+      "valid": true
+    },
+    {
+      "key": "ACCEPT_GATE.IN1",
+      "name": "IN1",
+      "direction": "input",
+      "point": [
+        1120,
+        728
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT"
+      ],
+      "actual_bits": [
+        "PRINT"
+      ],
+      "components": [
+        226
+      ],
+      "valid": true
+    },
+    {
+      "key": "ACCEPT_GATE.IN2",
+      "name": "IN2",
+      "direction": "input",
+      "point": [
+        1120,
+        736
+      ],
+      "width": 1,
+      "expected_bits": [
+        "PRINT_PREV_N"
+      ],
+      "actual_bits": [
+        "PRINT_PREV_N"
+      ],
+      "components": [
+        203
+      ],
+      "valid": true
+    },
+    {
+      "key": "ACCEPT_GATE.IN3",
+      "name": "IN3",
+      "direction": "input",
+      "point": [
+        1120,
+        744
+      ],
+      "width": 1,
+      "expected_bits": [
+        "IDLE"
+      ],
+      "actual_bits": [
+        "IDLE"
+      ],
+      "components": [
+        332
+      ],
+      "valid": true
+    },
+    {
+      "key": "ACCEPT_GATE.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1184,
+        736
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ACCEPT"
+      ],
+      "actual_bits": [
+        "ACCEPT"
+      ],
+      "components": [
+        227
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst1.1",
+      "name": "1",
+      "direction": "output",
+      "point": [
+        -96,
+        1040
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_ON"
+      ],
+      "actual_bits": [
+        "LCD_ON"
+      ],
+      "components": [
+        349
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst5.1",
+      "name": "1",
+      "direction": "output",
+      "point": [
+        -328,
+        1128
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_RW"
+      ],
+      "actual_bits": [
+        "LCD_RW"
+      ],
+      "components": [
+        301
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst6.IN",
+      "name": "IN",
+      "direction": "input",
+      "point": [
+        1296,
+        1232
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[4]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[4]"
+      ],
+      "components": [
+        249
+      ],
+      "valid": true
+    },
+    {
+      "key": "inst6.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1344,
+        1232
+      ],
+      "width": 1,
+      "expected_bits": [
+        "LCD_RS"
+      ],
+      "actual_bits": [
+        "LCD_RS"
+      ],
+      "components": [
+        294
+      ],
+      "valid": true
+    },
+    {
+      "key": "CONST_ONE.1",
+      "name": "1",
+      "direction": "output",
+      "point": [
+        -320,
+        1040
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ONE"
+      ],
+      "actual_bits": [
+        "ONE"
+      ],
+      "components": [
+        289
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.IN3",
+      "name": "IN3",
+      "direction": "input",
+      "point": [
+        1600,
+        0
+      ],
+      "width": 1,
+      "expected_bits": [
+        "ONE"
+      ],
+      "actual_bits": [
+        "ONE"
+      ],
+      "components": [
+        289
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.IN1",
+      "name": "IN1",
+      "direction": "input",
+      "point": [
+        1600,
+        -32
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[4]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[4]"
+      ],
+      "components": [
+        232
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.IN2",
+      "name": "IN2",
+      "direction": "input",
+      "point": [
+        1600,
+        -16
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[0]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[0]"
+      ],
+      "components": [
+        234
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.IN4",
+      "name": "IN4",
+      "direction": "input",
+      "point": [
+        1600,
+        16
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[3]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[3]"
+      ],
+      "components": [
+        236
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.IN5",
+      "name": "IN5",
+      "direction": "input",
+      "point": [
+        1600,
+        32
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[2]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[2]"
+      ],
+      "components": [
+        238
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.IN6",
+      "name": "IN6",
+      "direction": "input",
+      "point": [
+        1600,
+        48
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[1]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[1]"
+      ],
+      "components": [
+        241
+      ],
+      "valid": true
+    },
+    {
+      "key": "LAST_SLOT.OUT",
+      "name": "OUT",
+      "direction": "output",
+      "point": [
+        1664,
+        8
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT31"
+      ],
+      "actual_bits": [
+        "SLOT31"
+      ],
+      "components": [
+        270
+      ],
+      "valid": true
+    },
+    {
+      "key": "DATA_MUX.data1x",
+      "name": "data1x[7..0]",
+      "direction": "input",
+      "point": [
+        1216,
+        1008
+      ],
+      "width": 8,
+      "expected_bits": [
+        "TEXT_DATA[7]",
+        "TEXT_DATA[6]",
+        "TEXT_DATA[5]",
+        "TEXT_DATA[4]",
+        "TEXT_DATA[3]",
+        "TEXT_DATA[2]",
+        "TEXT_DATA[1]",
+        "TEXT_DATA[0]"
+      ],
+      "actual_bits": [
+        "TEXT_DATA[7]",
+        "TEXT_DATA[6]",
+        "TEXT_DATA[5]",
+        "TEXT_DATA[4]",
+        "TEXT_DATA[3]",
+        "TEXT_DATA[2]",
+        "TEXT_DATA[1]",
+        "TEXT_DATA[0]"
+      ],
+      "components": [
+        20
+      ],
+      "valid": true
+    },
+    {
+      "key": "DATA_MUX.data0x",
+      "name": "data0x[7..0]",
+      "direction": "input",
+      "point": [
+        1216,
+        1024
+      ],
+      "width": 8,
+      "expected_bits": [
+        "CTRL_DATA[7]",
+        "CTRL_DATA[6]",
+        "CTRL_DATA[5]",
+        "CTRL_DATA[4]",
+        "CTRL_DATA[3]",
+        "CTRL_DATA[2]",
+        "CTRL_DATA[1]",
+        "CTRL_DATA[0]"
+      ],
+      "actual_bits": [
+        "CTRL_DATA[7]",
+        "CTRL_DATA[6]",
+        "CTRL_DATA[5]",
+        "CTRL_DATA[4]",
+        "CTRL_DATA[3]",
+        "CTRL_DATA[2]",
+        "CTRL_DATA[1]",
+        "CTRL_DATA[0]"
+      ],
+      "components": [
+        26
+      ],
+      "valid": true
+    },
+    {
+      "key": "DATA_MUX.sel",
+      "name": "sel",
+      "direction": "input",
+      "point": [
+        1288,
+        1048
+      ],
+      "width": 1,
+      "expected_bits": [
+        "SLOT_Q[4]"
+      ],
+      "actual_bits": [
+        "SLOT_Q[4]"
+      ],
+      "components": [
+        249
+      ],
+      "valid": true
+    },
+    {
+      "key": "DATA_MUX.result",
+      "name": "result[7..0]",
+      "direction": "output",
+      "point": [
+        1360,
+        1016
+      ],
+      "width": 8,
+      "expected_bits": [
+        "LCD_DATA[7]",
+        "LCD_DATA[6]",
+        "LCD_DATA[5]",
+        "LCD_DATA[4]",
+        "LCD_DATA[3]",
+        "LCD_DATA[2]",
+        "LCD_DATA[1]",
+        "LCD_DATA[0]"
+      ],
+      "actual_bits": [
+        "LCD_DATA[7]",
+        "LCD_DATA[6]",
+        "LCD_DATA[5]",
+        "LCD_DATA[4]",
+        "LCD_DATA[3]",
+        "LCD_DATA[2]",
+        "LCD_DATA[1]",
+        "LCD_DATA[0]"
+      ],
+      "components": [
+        29
+      ],
+      "valid": true
+    }
+  ],
+  "signal_checks": [
+    {
+      "signal": "ACCEPT",
+      "physical_groups": [
+        [
+          "TIMER.sclr",
+          "SLOT.sload",
+          "OPCODE_LATCH.enable",
+          "ACCEPT_GATE.OUT"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BUSY",
+      "physical_groups": [
+        [
+          "TOP.BUSY",
+          "inst10.IN2",
+          "inst12.IN2",
+          "inst13.OUT"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "BYTE_ADVANCE",
+      "physical_groups": [
+        [
+          "SLOT.cnt_en",
+          "inst10.OUT"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CLOCK_50",
+      "physical_groups": [
+        [
+          "TOP.CLOCK_50",
+          "TIMER.clock",
+          "SLOT.clock",
+          "ROM_CONTROL.inclock",
+          "ROM_OPERATIONS.inclock",
+          "inst16.CLK",
+          "inst17.CLK",
+          "inst18.CLK",
+          "inst19.CLK",
+          "OPCODE_LATCH.clock"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[0]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[1]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[2]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[3]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[4]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[5]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[6]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "CTRL_DATA[7]",
+      "physical_groups": [
+        [
+          "ROM_CONTROL.q",
+          "DATA_MUX.data0x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "EN_NEXT",
+      "physical_groups": [
+        [
+          "inst.OUT",
+          "inst16.D"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[0]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[10]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[11]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[12]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[13]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[14]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[15]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[16]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[17]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[18]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[1]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[2]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[3]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[4]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[5]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[6]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[7]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[8]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIFTY_CONST[9]",
+      "physical_groups": [
+        [
+          "CMP_GE50.datab",
+          "CONST_50.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIVE_CONST[0]",
+      "physical_groups": [
+        [
+          "CMP_SLOT5.datab",
+          "inst8.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIVE_CONST[1]",
+      "physical_groups": [
+        [
+          "CMP_SLOT5.datab",
+          "inst8.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIVE_CONST[2]",
+      "physical_groups": [
+        [
+          "CMP_SLOT5.datab",
+          "inst8.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIVE_CONST[3]",
+      "physical_groups": [
+        [
+          "CMP_SLOT5.datab",
+          "inst8.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FIVE_CONST[4]",
+      "physical_groups": [
+        [
+          "CMP_SLOT5.datab",
+          "inst8.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "FRAME_END",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.aeb",
+          "inst10.IN1",
+          "inst11.IN1"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "GE50",
+      "physical_groups": [
+        [
+          "CMP_GE50.ageb",
+          "inst.IN2"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "IDLE",
+      "physical_groups": [
+        [
+          "CMP_IDLE.aeb",
+          "inst13.IN",
+          "ACCEPT_GATE.IN3"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "INIT_DONE",
+      "physical_groups": [
+        [
+          "TOP.INIT_DONE",
+          "CMP_IDLE.ageb"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[0]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[10]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[11]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[12]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[13]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[14]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[15]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[16]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[17]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[18]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[1]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[2]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[3]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[4]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[5]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[6]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[7]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[8]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K100[9]",
+      "physical_groups": [
+        [
+          "CMP_LT100.datab",
+          "inst2.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K13[0]",
+      "physical_groups": [
+        [
+          "CMP_IDLE.datab",
+          "inst9.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K13[1]",
+      "physical_groups": [
+        [
+          "CMP_IDLE.datab",
+          "inst9.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K13[2]",
+      "physical_groups": [
+        [
+          "CMP_IDLE.datab",
+          "inst9.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K13[3]",
+      "physical_groups": [
+        [
+          "CMP_IDLE.datab",
+          "inst9.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K13[4]",
+      "physical_groups": [
+        [
+          "CMP_IDLE.datab",
+          "inst9.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K15[0]",
+      "physical_groups": [
+        [
+          "SLOT.data",
+          "inst4.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K15[1]",
+      "physical_groups": [
+        [
+          "SLOT.data",
+          "inst4.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K15[2]",
+      "physical_groups": [
+        [
+          "SLOT.data",
+          "inst4.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K15[3]",
+      "physical_groups": [
+        [
+          "SLOT.data",
+          "inst4.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "K15[4]",
+      "physical_groups": [
+        [
+          "SLOT.data",
+          "inst4.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[0]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[10]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[11]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[12]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[13]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[14]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[15]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[16]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[17]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[18]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[1]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[2]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[3]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[4]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[5]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[6]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[7]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[8]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "KEND[9]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.datab",
+          "inst3.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[0]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[1]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[2]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[3]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[4]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[5]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[6]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_DATA[7]",
+      "physical_groups": [
+        [
+          "TOP.LCD_DATA",
+          "DATA_MUX.result"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_EN",
+      "physical_groups": [
+        [
+          "TOP.LCD_EN",
+          "inst16.Q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_ON",
+      "physical_groups": [
+        [
+          "TOP.LCD_ON",
+          "inst1.1"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_RS",
+      "physical_groups": [
+        [
+          "TOP.LCD_RS",
+          "inst6.OUT"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LCD_RW",
+      "physical_groups": [
+        [
+          "TOP.LCD_RW",
+          "inst5.1"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "LT100",
+      "physical_groups": [
+        [
+          "CMP_LT100.alb",
+          "inst.IN3"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "ONE",
+      "physical_groups": [
+        [
+          "inst18.D",
+          "CONST_ONE.1",
+          "LAST_SLOT.IN3"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE[0]",
+      "physical_groups": [
+        [
+          "TOP.OPCODE",
+          "OPCODE_LATCH.data"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE[1]",
+      "physical_groups": [
+        [
+          "TOP.OPCODE",
+          "OPCODE_LATCH.data"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE[2]",
+      "physical_groups": [
+        [
+          "TOP.OPCODE",
+          "OPCODE_LATCH.data"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE[3]",
+      "physical_groups": [
+        [
+          "TOP.OPCODE",
+          "OPCODE_LATCH.data"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE_Q[0]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.address",
+          "OPCODE_LATCH.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE_Q[1]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.address",
+          "OPCODE_LATCH.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE_Q[2]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.address",
+          "OPCODE_LATCH.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "OPCODE_Q[3]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.address",
+          "OPCODE_LATCH.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "PRINT",
+      "physical_groups": [
+        [
+          "TOP.PRINT",
+          "inst17.D",
+          "ACCEPT_GATE.IN1"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "PRINT_PREV",
+      "physical_groups": [
+        [
+          "inst14.IN",
+          "inst17.Q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "PRINT_PREV_N",
+      "physical_groups": [
+        [
+          "inst14.OUT",
+          "ACCEPT_GATE.IN2"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RESET",
+      "physical_groups": [
+        [
+          "TIMER.aclr",
+          "SLOT.aclr",
+          "inst15.OUT",
+          "OPCODE_LATCH.aclr"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RESET_N",
+      "physical_groups": [
+        [
+          "TOP.RESET_N",
+          "inst18.CLRN",
+          "inst19.CLRN"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RESET_STAGE1",
+      "physical_groups": [
+        [
+          "inst18.Q",
+          "inst19.D"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RETURN_IDLE",
+      "physical_groups": [
+        [
+          "SLOT.sset",
+          "inst11.OUT"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "RST_N",
+      "physical_groups": [
+        [
+          "inst15.IN",
+          "inst16.CLRN",
+          "inst17.CLRN",
+          "inst19.Q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SEND_ACTIVE",
+      "physical_groups": [
+        [
+          "inst12.OUT",
+          "inst.IN1"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SLOT31",
+      "physical_groups": [
+        [
+          "inst11.IN2",
+          "LAST_SLOT.OUT"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SLOT_Q[0]",
+      "physical_groups": [
+        [
+          "SLOT.q",
+          "ROM_CONTROL.address",
+          "ROM_OPERATIONS.address",
+          "CMP_SLOT5.dataa",
+          "CMP_IDLE.dataa",
+          "LAST_SLOT.IN2"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SLOT_Q[1]",
+      "physical_groups": [
+        [
+          "SLOT.q",
+          "ROM_CONTROL.address",
+          "ROM_OPERATIONS.address",
+          "CMP_SLOT5.dataa",
+          "CMP_IDLE.dataa",
+          "LAST_SLOT.IN6"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SLOT_Q[2]",
+      "physical_groups": [
+        [
+          "SLOT.q",
+          "ROM_CONTROL.address",
+          "ROM_OPERATIONS.address",
+          "CMP_SLOT5.dataa",
+          "CMP_IDLE.dataa",
+          "LAST_SLOT.IN5"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SLOT_Q[3]",
+      "physical_groups": [
+        [
+          "SLOT.q",
+          "ROM_CONTROL.address",
+          "ROM_OPERATIONS.address",
+          "CMP_SLOT5.dataa",
+          "CMP_IDLE.dataa",
+          "LAST_SLOT.IN4"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "SLOT_Q[4]",
+      "physical_groups": [
+        [
+          "SLOT.q",
+          "CMP_SLOT5.dataa",
+          "CMP_IDLE.dataa",
+          "inst6.IN",
+          "LAST_SLOT.IN1",
+          "DATA_MUX.sel"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "STATE_GE5",
+      "physical_groups": [
+        [
+          "CMP_SLOT5.ageb",
+          "inst12.IN1"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[0]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[1]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[2]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[3]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[4]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[5]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[6]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TEXT_DATA[7]",
+      "physical_groups": [
+        [
+          "ROM_OPERATIONS.q",
+          "DATA_MUX.data1x"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[0]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[10]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[11]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[12]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[13]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[14]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[15]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[16]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[17]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[18]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[1]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[2]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[3]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[4]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[5]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[6]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[7]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[8]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    },
+    {
+      "signal": "TIMER_Q[9]",
+      "physical_groups": [
+        [
+          "CMP_FRAME_END.dataa",
+          "CMP_LT100.dataa",
+          "CMP_GE50.dataa",
+          "TIMER.q"
+        ]
+      ],
+      "valid": true
+    }
+  ],
+  "bus_taps": [
+    {
+      "point": [
+        1408,
+        -32
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[4]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[4]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        1408,
+        -16
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[0]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[0]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        1408,
+        16
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[3]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[3]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        1408,
+        32
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[2]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[2]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        1408,
+        48
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[1]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[1]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        1408,
+        1088
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[4]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[4]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        336,
+        800
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[3]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[3]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        336,
+        832
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[2]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[2]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        336,
+        896
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[0]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[0]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        336,
+        864
+      ],
+      "bus_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[1]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[1]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        216,
+        800
+      ],
+      "bus_labels": [
+        "SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[3]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[3]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        216,
+        832
+      ],
+      "bus_labels": [
+        "SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[2]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[2]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        216,
+        896
+      ],
+      "bus_labels": [
+        "SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[0]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[0]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        216,
+        864
+      ],
+      "bus_labels": [
+        "SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[1]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[1]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        800
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[3]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[3]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        832
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[2]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[2]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        896
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[0]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[0]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        872
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "SLOT_Q[1]"
+      ],
+      "selected_bit": [
+        "SLOT_Q[1]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        808
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[3]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[3]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        848
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[2]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[2]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        888
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[1]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[1]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        608,
+        928
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[0]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[0]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        680,
+        808
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[3]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[3]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        680,
+        848
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[2]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[2]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        680,
+        888
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[1]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[1]"
+      ],
+      "valid": true
+    },
+    {
+      "point": [
+        680,
+        928
+      ],
+      "bus_labels": [
+        "OPCODE_Q[3..0]"
+      ],
+      "wire_labels": [
+        "OPCODE_Q[0]"
+      ],
+      "selected_bit": [
+        "OPCODE_Q[0]"
+      ],
+      "valid": true
+    }
+  ],
+  "visual_findings": [],
+  "crossings_without_junction": [
+    {
+      "point": [
+        792,
+        400
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "BYTE_ADVANCE"
+      ]
+    },
+    {
+      "point": [
+        792,
+        408
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "RETURN_IDLE"
+      ]
+    },
+    {
+      "point": [
+        720,
+        984
+      ],
+      "first_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        704,
+        984
+      ],
+      "first_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1224,
+        168
+      ],
+      "first_labels": [
+        "FIVE_CONST[4..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1248,
+        168
+      ],
+      "first_labels": [
+        "FIVE_CONST[4..0]"
+      ],
+      "second_labels": [
+        "SLOT31"
+      ]
+    },
+    {
+      "point": [
+        992,
+        712
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        1112,
+        744
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "SEND_ACTIVE"
+      ]
+    },
+    {
+      "point": [
+        1104,
+        744
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        1008
+      ],
+      "first_labels": [
+        "TEXT_DATA[7..0]"
+      ],
+      "second_labels": [
+        "CTRL_DATA[7..0]"
+      ]
+    },
+    {
+      "point": [
+        864,
+        1008
+      ],
+      "first_labels": [
+        "TEXT_DATA[7..0]"
+      ],
+      "second_labels": [
+        "PRINT_PREV"
+      ]
+    },
+    {
+      "point": [
+        336,
+        1000
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        512,
+        912
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "OPCODE[3..0]"
+      ]
+    },
+    {
+      "point": [
+        512,
+        880
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        512,
+        896
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        512,
+        872
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[1]"
+      ]
+    },
+    {
+      "point": [
+        512,
+        864
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        864,
+        840
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "PRINT_PREV"
+      ]
+    },
+    {
+      "point": [
+        528,
+        840
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        720,
+        840
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        704,
+        840
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        680,
+        840
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        840
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        912
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "OPCODE[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        880
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        864
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        856
+      ],
+      "first_labels": [
+        "CTRL_DATA[7..0]"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1016
+      ],
+      "first_labels": [
+        "LCD_DATA[7..0]"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1016
+      ],
+      "first_labels": [
+        "LCD_DATA[7..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        416,
+        264
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        328,
+        432
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        416,
+        432
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        -48,
+        616
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "FIFTY_CONST[18..0]"
+      ]
+    },
+    {
+      "point": [
+        864,
+        600
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "KEND[18..0]"
+      ]
+    },
+    {
+      "point": [
+        360,
+        648
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "K100[18..0]"
+      ]
+    },
+    {
+      "point": [
+        360,
+        616
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "K100[18..0]"
+      ]
+    },
+    {
+      "point": [
+        144,
+        680
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        696,
+        680
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        400,
+        680
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        416,
+        680
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        704,
+        680
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        648,
+        680
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        400,
+        600
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        416,
+        600
+      ],
+      "first_labels": [
+        "TIMER_Q[18..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        -200,
+        616
+      ],
+      "first_labels": [
+        "FIFTY_CONST[18..0]"
+      ],
+      "second_labels": [
+        "OPCODE[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1552,
+        536
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "K13[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1336,
+        560
+      ],
+      "first_labels": [
+        "EN_NEXT"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1336,
+        432
+      ],
+      "first_labels": [
+        "EN_NEXT"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1336,
+        456
+      ],
+      "first_labels": [
+        "EN_NEXT"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1528,
+        424
+      ],
+      "first_labels": [
+        "EN_NEXT"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1104
+      ],
+      "first_labels": [
+        "RESET_STAGE1"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1384,
+        1104
+      ],
+      "first_labels": [
+        "RESET_STAGE1"
+      ],
+      "second_labels": [
+        "SLOT_Q[4]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1104
+      ],
+      "first_labels": [
+        "RESET_STAGE1"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1080,
+        1176
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1464,
+        1176
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1176
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1208,
+        1176
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1176
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1208,
+        1208
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "SLOT_Q[4]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1208
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1464,
+        1192
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        208,
+        200
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        208,
+        88
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        -352,
+        1264
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RESET_N"
+      ]
+    },
+    {
+      "point": [
+        -352,
+        304
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "OPCODE[3..0]"
+      ]
+    },
+    {
+      "point": [
+        -352,
+        1248
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        1080,
+        1192
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        1080,
+        1280
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1080,
+        1296
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        472,
+        1264
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RESET_N"
+      ]
+    },
+    {
+      "point": [
+        472,
+        1296
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        472,
+        1248
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        -152,
+        1264
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RESET_N"
+      ]
+    },
+    {
+      "point": [
+        -152,
+        1064
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        -152,
+        1296
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        -152,
+        1248
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        336,
+        1312
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        -80,
+        1312
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    },
+    {
+      "point": [
+        576,
+        1104
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        576,
+        1064
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        512,
+        1120
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        720,
+        1000
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        704,
+        1000
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        656,
+        232
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RETURN_IDLE"
+      ]
+    },
+    {
+      "point": [
+        656,
+        120
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "K15[4..0]"
+      ]
+    },
+    {
+      "point": [
+        656,
+        248
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "K15[4..0]"
+      ]
+    },
+    {
+      "point": [
+        656,
+        216
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        1112,
+        640
+      ],
+      "first_labels": [
+        "GE50"
+      ],
+      "second_labels": [
+        "SEND_ACTIVE"
+      ]
+    },
+    {
+      "point": [
+        1112,
+        680
+      ],
+      "first_labels": [
+        "LT100"
+      ],
+      "second_labels": [
+        "SEND_ACTIVE"
+      ]
+    },
+    {
+      "point": [
+        1320,
+        560
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1320,
+        432
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1320,
+        456
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        920,
+        400
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "BYTE_ADVANCE"
+      ]
+    },
+    {
+      "point": [
+        920,
+        408
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "RETURN_IDLE"
+      ]
+    },
+    {
+      "point": [
+        920,
+        352
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        400
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "BYTE_ADVANCE"
+      ]
+    },
+    {
+      "point": [
+        1168,
+        408
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "RETURN_IDLE"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        416
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1240,
+        376
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "BYTE_ADVANCE"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        376
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1248,
+        376
+      ],
+      "first_labels": [
+        "FRAME_END"
+      ],
+      "second_labels": [
+        "SLOT31"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        344
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1240,
+        392
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "SLOT31"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        400
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        904,
+        400
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        680,
+        400
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        704,
+        400
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        680,
+        328
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        704,
+        328
+      ],
+      "first_labels": [
+        "BYTE_ADVANCE"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        408
+      ],
+      "first_labels": [
+        "RETURN_IDLE"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        904,
+        408
+      ],
+      "first_labels": [
+        "RETURN_IDLE"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        680,
+        408
+      ],
+      "first_labels": [
+        "RETURN_IDLE"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        704,
+        408
+      ],
+      "first_labels": [
+        "RETURN_IDLE"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        584,
+        248
+      ],
+      "first_labels": [
+        "RETURN_IDLE"
+      ],
+      "second_labels": [
+        "K15[4..0]"
+      ]
+    },
+    {
+      "point": [
+        704,
+        232
+      ],
+      "first_labels": [
+        "RETURN_IDLE"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        432
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        456
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        1200,
+        392
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "SLOT31"
+      ]
+    },
+    {
+      "point": [
+        1552,
+        712
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "K13[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1552,
+        544
+      ],
+      "first_labels": [
+        "K13[4..0]"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        696,
+        456
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "CLOCK_50"
+      ]
+    },
+    {
+      "point": [
+        696,
+        496
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        648,
+        696
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        784,
+        432
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        704,
+        432
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        704,
+        296
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        784,
+        456
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        704,
+        456
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1296,
+        248
+      ],
+      "first_labels": [
+        "FIVE_CONST[4..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1248,
+        264
+      ],
+      "first_labels": [
+        "FIVE_CONST[4..0]"
+      ],
+      "second_labels": [
+        "SLOT31"
+      ]
+    },
+    {
+      "point": [
+        1768,
+        544
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        1768,
+        784
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        1768,
+        696
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        1768,
+        776
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        1768,
+        448
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "LCD_EN"
+      ]
+    },
+    {
+      "point": [
+        1768,
+        728
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "INIT_DONE"
+      ]
+    },
+    {
+      "point": [
+        1288,
+        808
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        1264,
+        808
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        808
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1112,
+        736
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "PRINT_PREV_N"
+      ]
+    },
+    {
+      "point": [
+        1112,
+        776
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        1112,
+        728
+      ],
+      "first_labels": [
+        "SEND_ACTIVE"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        -376,
+        384
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        -376,
+        304
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "OPCODE[3..0]"
+      ]
+    },
+    {
+      "point": [
+        720,
+        1264
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        336,
+        1264
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        -168,
+        1264
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        -80,
+        1264
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    },
+    {
+      "point": [
+        1032,
+        1192
+      ],
+      "first_labels": [
+        "RESET_N"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        864,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "PRINT_PREV"
+      ]
+    },
+    {
+      "point": [
+        528,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        720,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        -128,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        336,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        704,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        680,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        912
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1504,
+        944
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        1608,
+        944
+      ],
+      "first_labels": [
+        "OPCODE[3..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1312
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1192
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RST_N"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1232
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "LCD_RS"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1280
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1488,
+        1296
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        1504,
+        960
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        1608,
+        960
+      ],
+      "first_labels": [
+        "CLOCK_50"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        720,
+        1104
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        864,
+        816
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        864,
+        880
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        864,
+        1064
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        864,
+        792
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        864,
+        864
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        864,
+        856
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        736,
+        712
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        736,
+        720
+      ],
+      "first_labels": [
+        "PRINT_PREV"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        1888,
+        544
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "LCD_EN"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        784
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1888,
+        784
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "LCD_EN"
+      ]
+    },
+    {
+      "point": [
+        1912,
+        856
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1912,
+        960
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1912,
+        728
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "INIT_DONE"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        832
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1688,
+        1160
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "LCD_RS"
+      ]
+    },
+    {
+      "point": [
+        1208,
+        1192
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4]"
+      ]
+    },
+    {
+      "point": [
+        1664,
+        1192
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "LCD_RS"
+      ]
+    },
+    {
+      "point": [
+        720,
+        1192
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1192
+      ],
+      "first_labels": [
+        "RST_N"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        400,
+        712
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        400,
+        800
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "SLOT_Q[3]"
+      ]
+    },
+    {
+      "point": [
+        400,
+        832
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "SLOT_Q[2]"
+      ]
+    },
+    {
+      "point": [
+        400,
+        648
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "K100[18..0]"
+      ]
+    },
+    {
+      "point": [
+        400,
+        616
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "K100[18..0]"
+      ]
+    },
+    {
+      "point": [
+        416,
+        496
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        704,
+        496
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1144,
+        80
+      ],
+      "first_labels": [
+        "K15[4..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        600,
+        120
+      ],
+      "first_labels": [
+        "K15[4..0]"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        704,
+        120
+      ],
+      "first_labels": [
+        "K15[4..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        704,
+        248
+      ],
+      "first_labels": [
+        "K15[4..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1264,
+        776
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        1264,
+        864
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        1264,
+        856
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        880
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1608,
+        976
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        976,
+        712
+      ],
+      "first_labels": [
+        "PRINT_PREV_N"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        976,
+        728
+      ],
+      "first_labels": [
+        "PRINT_PREV_N"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        1104,
+        736
+      ],
+      "first_labels": [
+        "PRINT_PREV_N"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        528,
+        880
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "point": [
+        528,
+        1064
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        528,
+        832
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "SLOT_Q[2]"
+      ]
+    },
+    {
+      "point": [
+        528,
+        896
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        528,
+        872
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "SLOT_Q[1]"
+      ]
+    },
+    {
+      "point": [
+        528,
+        864
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        720,
+        816
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        704,
+        816
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        608,
+        816
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        680,
+        816
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1840,
+        728
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "INIT_DONE"
+      ]
+    },
+    {
+      "point": [
+        448,
+        712
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        776
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1104,
+        776
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        952,
+        776
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        416,
+        712
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "GE50"
+      ]
+    },
+    {
+      "point": [
+        416,
+        800
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "SLOT_Q[3]"
+      ]
+    },
+    {
+      "point": [
+        416,
+        832
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "SLOT_Q[2]"
+      ]
+    },
+    {
+      "point": [
+        416,
+        872
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "SLOT_Q[1]"
+      ]
+    },
+    {
+      "point": [
+        416,
+        864
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        416,
+        648
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "K100[18..0]"
+      ]
+    },
+    {
+      "point": [
+        416,
+        616
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "K100[18..0]"
+      ]
+    },
+    {
+      "point": [
+        720,
+        880
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        704,
+        880
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        608,
+        880
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        680,
+        880
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        720,
+        712
+      ],
+      "first_labels": [
+        "GE50"
+      ],
+      "second_labels": [
+        "BUSY"
+      ]
+    },
+    {
+      "point": [
+        704,
+        712
+      ],
+      "first_labels": [
+        "GE50"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        648,
+        712
+      ],
+      "first_labels": [
+        "GE50"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        952,
+        792
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        1104,
+        728
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        704,
+        216
+      ],
+      "first_labels": [
+        "ACCEPT"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1224,
+        80
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1248,
+        248
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "SLOT31"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        0
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        864
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        856
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1232
+      ],
+      "first_labels": [
+        "LCD_RS"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1640,
+        1232
+      ],
+      "first_labels": [
+        "LCD_RS"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        1664,
+        1208
+      ],
+      "first_labels": [
+        "LCD_RS"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        704,
+        696
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        720,
+        1064
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        720,
+        720
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        720,
+        792
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        720,
+        864
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        720,
+        856
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1280
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "SLOT_Q[4..0]"
+      ]
+    },
+    {
+      "point": [
+        1640,
+        1280
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        1560,
+        1280
+      ],
+      "first_labels": [
+        "BUSY"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1296
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        336,
+        1064
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "ONE"
+      ]
+    },
+    {
+      "point": [
+        336,
+        1296
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        336,
+        1248
+      ],
+      "first_labels": [
+        "SLOT_Q[4..0]"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        704,
+        720
+      ],
+      "first_labels": [
+        "ONE"
+      ],
+      "second_labels": [
+        "IDLE"
+      ]
+    },
+    {
+      "point": [
+        704,
+        792
+      ],
+      "first_labels": [
+        "ONE"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        704,
+        864
+      ],
+      "first_labels": [
+        "ONE"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        704,
+        856
+      ],
+      "first_labels": [
+        "ONE"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        -96,
+        1064
+      ],
+      "first_labels": [
+        "ONE"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    },
+    {
+      "point": [
+        1888,
+        728
+      ],
+      "first_labels": [
+        "LCD_EN"
+      ],
+      "second_labels": [
+        "INIT_DONE"
+      ]
+    },
+    {
+      "point": [
+        1888,
+        856
+      ],
+      "first_labels": [
+        "LCD_EN"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1888,
+        960
+      ],
+      "first_labels": [
+        "LCD_EN"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1640,
+        1264
+      ],
+      "first_labels": [
+        "LCD_ON"
+      ],
+      "second_labels": [
+        "LCD_RW"
+      ]
+    },
+    {
+      "point": [
+        -168,
+        1248
+      ],
+      "first_labels": [
+        "LCD_RW"
+      ],
+      "second_labels": [
+        "PRINT"
+      ]
+    },
+    {
+      "point": [
+        -80,
+        1296
+      ],
+      "first_labels": [
+        "LCD_RW"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    },
+    {
+      "point": [
+        1560,
+        1296
+      ],
+      "first_labels": [
+        "LCD_RW"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    },
+    {
+      "point": [
+        1936,
+        856
+      ],
+      "first_labels": [
+        "INIT_DONE"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1936,
+        960
+      ],
+      "first_labels": [
+        "INIT_DONE"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        864
+      ],
+      "first_labels": [
+        "OPCODE_Q[3..0],SLOT_Q[3..0]"
+      ],
+      "second_labels": [
+        "RESET"
+      ]
+    },
+    {
+      "point": [
+        648,
+        720
+      ],
+      "first_labels": [
+        "IDLE"
+      ],
+      "second_labels": [
+        "LT100"
+      ]
+    },
+    {
+      "point": [
+        680,
+        864
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        1608,
+        856
+      ],
+      "first_labels": [
+        "RESET"
+      ],
+      "second_labels": [
+        "OPCODE_Q[3..0]"
+      ]
+    },
+    {
+      "point": [
+        -80,
+        1248
+      ],
+      "first_labels": [
+        "PRINT"
+      ],
+      "second_labels": [
+        "LCD_ON"
+      ]
+    }
+  ]
+}

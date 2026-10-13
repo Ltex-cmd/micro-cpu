@@ -1,0 +1,57 @@
+{
+  "result": "PASS: CDC exception selectors resolved; all five stage1-to-stage2 pairs remain timed",
+  "report_sha256": "e145c02f0de53f39621072fad27838da63ed3552ea06ea08674698dcbd9d3118",
+  "sdc_sha256": "881e04866c5429d9580466264b29416cd3f31450f773563117f0718fae112099",
+  "stage_pairs": [
+    {
+      "from": "lpm_ff:SYNC_META|dffs[0]",
+      "to": "lpm_ff:SYNC_STABLE|dffs[0]",
+      "reported_paths": 3,
+      "minimum_reported_slack_ns": 0.19
+    },
+    {
+      "from": "lpm_ff:SYNC_META|dffs[1]",
+      "to": "lpm_ff:SYNC_STABLE|dffs[1]",
+      "reported_paths": 3,
+      "minimum_reported_slack_ns": 0.191
+    },
+    {
+      "from": "lpm_ff:SYNC_META|dffs[2]",
+      "to": "lpm_ff:SYNC_STABLE|dffs[2]",
+      "reported_paths": 3,
+      "minimum_reported_slack_ns": 0.189
+    },
+    {
+      "from": "lpm_ff:SYNC_META|dffs[3]",
+      "to": "lpm_ff:SYNC_STABLE|dffs[3]",
+      "reported_paths": 3,
+      "minimum_reported_slack_ns": 0.189
+    },
+    {
+      "from": "inst3",
+      "to": "inst4",
+      "reported_paths": 3,
+      "minimum_reported_slack_ns": 0.263
+    }
+  ],
+  "unconstrained_inputs": [
+    "KEY[0]"
+  ],
+  "unconstrained_outputs": [
+    "BUSY",
+    "INIT_DONE",
+    "LCD_DATA[0]",
+    "LCD_DATA[1]",
+    "LCD_DATA[2]",
+    "LCD_DATA[3]",
+    "LCD_DATA[4]",
+    "LCD_DATA[5]",
+    "LCD_DATA[6]",
+    "LCD_DATA[7]",
+    "LCD_EN",
+    "LCD_RS"
+  ],
+  "unconstrained_clocks": 0,
+  "external_timing_complete": false,
+  "physical_board_tested": false
+}

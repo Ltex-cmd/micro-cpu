@@ -1,0 +1,32 @@
+{
+  "transfers": 39,
+  "per_epoch_and_kind": [
+    {
+      "epoch": "1",
+      "kind": "init",
+      "count": 2
+    },
+    {
+      "epoch": "2",
+      "kind": "init",
+      "count": 8
+    },
+    {
+      "epoch": "2",
+      "kind": "print",
+      "count": 4
+    },
+    {
+      "epoch": "3",
+      "kind": "init",
+      "count": 8
+    },
+    {
+      "epoch": "3",
+      "kind": "print",
+      "count": 17
+    }
+  ],
+  "last_transfer_ns": 570005410,
+  "bdf_sha256": "d8e5afe10e88196023642b6e8379d30f5cfa6b776b14521c316c009c98191ed9"
+}

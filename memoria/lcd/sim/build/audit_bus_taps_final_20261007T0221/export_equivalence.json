@@ -1,0 +1,168 @@
+{
+  "result": "PASS",
+  "scope": "All 23 archived Verilog source files compared; only comments/whitespace ignored in token comparison",
+  "bdf_sha256": "811b55727d012049e759bb8e1023d017ea7522a4748de4579b3f8c77d573c687",
+  "files": [
+    {
+      "file": "lcd_data_mux.v",
+      "byte_identical": true,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "3351c9bab1d5c11b687e4a1b97013a4264ce48978382d3262d8885b2b1a9caed",
+      "fresh_sha256": "3351c9bab1d5c11b687e4a1b97013a4264ce48978382d3262d8885b2b1a9caed"
+    },
+    {
+      "file": "lcd_operation_display.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "3fbf47726c02b45db3129dc4c7bda4819a79fe0895f10573311ab2cdd2bd22f9",
+      "fresh_sha256": "0c99fcddd450443dfc6aec04061d3726da48bfe699a565c08dfd202b3d253cbc"
+    },
+    {
+      "file": "lpm_compare_0.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "56d35856f084a6d3aa7fac08faa168bbd3dc3fa81329472b81a90706087b0506",
+      "fresh_sha256": "88e88fbf5f4aebd75e91b8e3f9553027ef4b25a4f72aaf7c6f75a081fae73257"
+    },
+    {
+      "file": "lpm_compare_1.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "7c4b948f6baa37909fd827816a7e2f64b311e33424b690281268157dc69b315c",
+      "fresh_sha256": "adc6abd93a76d5242c737a4040b321666e2e72112f7a5331bc17d482abf1f46f"
+    },
+    {
+      "file": "lpm_compare_2.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "4d129546b0460ef9e3b2595666524e878b39c08e8d02bd5eeb6086804ba4e774",
+      "fresh_sha256": "f7dc2b4e4ceef434c675350c410679d7d9528c3734a0a61083fd4e3ff02f541e"
+    },
+    {
+      "file": "lpm_compare_3.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "6444c6c8be2820b502be2cb004695c25f9a8335c0da8eb62a412502694ba8087",
+      "fresh_sha256": "0195c825e57e98cb3899352ca02c7e9e7deb86021fb300d227f03b4cdfa005fd"
+    },
+    {
+      "file": "lpm_compare_4.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "42106e20e3f1a1f1626677274499e62ffa297b1783424b831d208be3cb6e115e",
+      "fresh_sha256": "aa441c4eee30405cc6beae224637967beafd7330ae81f53a6ff5558ad84bc94e"
+    },
+    {
+      "file": "lpm_constant_10.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "78807ce1bff25f395dde2ae610f924990e15581512c5f61b6d81f603951e0cd7",
+      "fresh_sha256": "c1a732f9cc1d2013d84160d2b48b6a24603e1c72a9361ce52edb0a17c63746d4"
+    },
+    {
+      "file": "lpm_constant_11.v",
+      "byte_identical": true,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "f5c8a4eeefef574ec8ff94cf0f5660cdf177cdf1bae647dabb5de06f31612c6b",
+      "fresh_sha256": "f5c8a4eeefef574ec8ff94cf0f5660cdf177cdf1bae647dabb5de06f31612c6b"
+    },
+    {
+      "file": "lpm_constant_5.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "239feb22e2f0de0c902a348792f2fb64610f0da03e66a65978c1f0855392f972",
+      "fresh_sha256": "009edbc729747e0db02eed6053e2a01c296d3f1abd2d0778f3a5ffc094f7edf2"
+    },
+    {
+      "file": "lpm_constant_6.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "88055a7f2d2aba45fe594d154323acd801e58dfca61469ca7a7209233b527267",
+      "fresh_sha256": "83eece033aad21c97ecd124a5b427f8e74996acfb97d100ea2cb6a41c9c01180"
+    },
+    {
+      "file": "lpm_constant_7.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "5ded9914a05ed879ea4c63178a004c668f92e44072b9b57bf6d3c7a6ddc59214",
+      "fresh_sha256": "7b0bc50376cbff367aa31e5b9b7bc5b4e814180ae6fe20c1dd19ffe9408b0569"
+    },
+    {
+      "file": "lpm_constant_8.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "3f4ec97f9d49ff0ba6bd657a3a74ba565c5700e9d90f4121c9182d4e2fa90368",
+      "fresh_sha256": "2b346c9b486b3b9e046335815e51a0f1474edffbf7b56a7a629a8ff8f61b02a6"
+    },
+    {
+      "file": "lpm_constant_9.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "a490c115ba4ee4dd452c0d6622c71ce21da1e18e2e357a5a898d54f397db2d2d",
+      "fresh_sha256": "1bc81ea41cc60a26f6c0a15ab3fbb68dcc7ab31212bc0b3cddbbd44624881c74"
+    },
+    {
+      "file": "lpm_counter_14.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "6ad41f8b44caa9e21a9cea1cef01b5b538176080e7a992498883850e592ff796",
+      "fresh_sha256": "d5c9234768feaf9f4ab7566cb0841db824e3cec626af91459d4d53b87033b824"
+    },
+    {
+      "file": "lpm_counter_15.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "1427e5931df538f42f25cc62c735dd5dc5a22e56c59b89c82e0f9135a2a25b75",
+      "fresh_sha256": "f6f9fb95dc655b25f844d27fdf896cc1e763577dac843feed30c84d6f92654cf"
+    },
+    {
+      "file": "lpm_counter_16.v",
+      "byte_identical": true,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "1af552d0c412bd2734924d9822e3b03f111dcecc5851961064aac7fbdef92fb5",
+      "fresh_sha256": "1af552d0c412bd2734924d9822e3b03f111dcecc5851961064aac7fbdef92fb5"
+    },
+    {
+      "file": "lpm_ff_11.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "6b56c3791e544d0211aaa3a3d81b7e02b3f8c50b473b187e70fee6bb212b6afd",
+      "fresh_sha256": "214e16ef8566513e55d8553fda3a241cd1a88d31376fe22d6a05c1300d5fb835"
+    },
+    {
+      "file": "lpm_ff_12.v",
+      "byte_identical": true,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "3396ea93b096749e51fa392256ba88fd790c55704e871e344a46bb938aeb87b3",
+      "fresh_sha256": "3396ea93b096749e51fa392256ba88fd790c55704e871e344a46bb938aeb87b3"
+    },
+    {
+      "file": "lpm_mux_6.v",
+      "byte_identical": true,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "72d84595d89c2e66ebcd44f22590372506db9163f23eac2ecec02efd128bc8f0",
+      "fresh_sha256": "72d84595d89c2e66ebcd44f22590372506db9163f23eac2ecec02efd128bc8f0"
+    },
+    {
+      "file": "lpm_rom_12.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "8d3b05d3ee6479b484e4eb0852ce4bdfeb8712cda972b3baac3ff31908b92816",
+      "fresh_sha256": "b4f69772c50a1792efcaddae61f0658e6ebf179a0a91be4e20840f8f128b0775"
+    },
+    {
+      "file": "lpm_rom_13.v",
+      "byte_identical": false,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "839f5d24ee94536c00df743ceea46692ffc204f33b1a03076c4e3b5c0b083145",
+      "fresh_sha256": "2c06a768b53b830f344f2d4449627b4acc4c94eb5b6c6909b32f932c64762d43"
+    },
+    {
+      "file": "lpm_rom_14.v",
+      "byte_identical": true,
+      "verilog_tokens_identical": true,
+      "tested_sha256": "5821b9d31219f36714e63786b66cfbae7688e523b9017854033ab2052e14cd40",
+      "fresh_sha256": "5821b9d31219f36714e63786b66cfbae7688e523b9017854033ab2052e14cd40"
+    }
+  ]
+}

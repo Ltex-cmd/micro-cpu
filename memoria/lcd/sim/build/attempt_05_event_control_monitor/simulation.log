@@ -1,0 +1,22 @@
+VCD info: dumpfile lcd_trace.vcd opened for output.
+Reset epoch 1 released at 200 ns
+Reset epoch 2 released at 70001660 ns
+PASS init epoch 2 at 200001690 ns
+PASS opcode 0: command 80 + 16 fixture chars at 390001811 ns
+PASS opcode 1: command 80 + 16 fixture chars at 580001931 ns
+PASS opcode 2: command 80 + 16 fixture chars at 770002051 ns
+PASS opcode 3: command 80 + 16 fixture chars at 960002171 ns
+PASS opcode 4: command 80 + 16 fixture chars at 1150002291 ns
+PASS opcode 5: command 80 + 16 fixture chars at 1340002411 ns
+PASS opcode 6: command 80 + 16 fixture chars at 1530002531 ns
+PASS opcode 7: command 80 + 16 fixture chars at 1720002651 ns
+PASS opcode 8: command 80 + 16 fixture chars at 1910002771 ns
+PASS opcode 9: command 80 + 16 fixture chars at 2100002891 ns
+PASS opcode a: command 80 + 16 fixture chars at 2290003011 ns
+PASS opcode b: command 80 + 16 fixture chars at 2480003131 ns
+PASS opcode c: command 80 + 16 fixture chars at 2670003251 ns
+PASS opcode d: command 80 + 16 fixture chars at 2860003371 ns
+PASS opcode e: command 80 + 16 fixture chars at 3050003491 ns
+PASS opcode f: command 80 + 16 fixture chars at 3240003611 ns
+PASS opcode 8: command 80 + 16 fixture chars at 3430003731 ns
+Reset epoch 3 released at 3490005280 ns

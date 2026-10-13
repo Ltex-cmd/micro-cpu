@@ -1,0 +1,108 @@
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:20: warning: timescale for lcd_operation_display inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_0.v:21: warning: timescale for lpm_compare_0 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_1.v:21: warning: timescale for lpm_compare_1 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_2.v:21: warning: timescale for lpm_compare_2 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_3.v:21: warning: timescale for lpm_compare_3 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_4.v:21: warning: timescale for lpm_compare_4 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_10.v:21: warning: timescale for lpm_constant_10 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_11.v:21: warning: timescale for lpm_constant_11 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_5.v:21: warning: timescale for lpm_constant_5 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_6.v:21: warning: timescale for lpm_constant_6 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_7.v:21: warning: timescale for lpm_constant_7 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_8.v:21: warning: timescale for lpm_constant_8 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_constant_9.v:21: warning: timescale for lpm_constant_9 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:21: warning: timescale for lpm_counter_14 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:21: warning: timescale for lpm_counter_15 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_16.v:21: warning: timescale for lpm_counter_16 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:21: warning: timescale for lpm_ff_11 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_12.v:21: warning: timescale for lpm_ff_12 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_mux_6.v:21: warning: timescale for lpm_mux_6 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_12.v:21: warning: timescale for lpm_rom_12 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_13.v:21: warning: timescale for lpm_rom_13 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_14.v:21: warning: timescale for lpm_rom_14 inherited from another file.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:38: ...: The inherited timescale is here.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_0.v:26: warning: Instantiating module lpm_compare with dangling input port 3 (clock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_0.v:26: warning: Instantiating module lpm_compare with dangling input port 4 (aclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_0.v:26: warning: Instantiating module lpm_compare with dangling input port 5 (clken) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_1.v:26: warning: Instantiating module lpm_compare with dangling input port 3 (clock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_1.v:26: warning: Instantiating module lpm_compare with dangling input port 4 (aclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_1.v:26: warning: Instantiating module lpm_compare with dangling input port 5 (clken) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_2.v:27: warning: Instantiating module lpm_compare with dangling input port 3 (clock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_2.v:27: warning: Instantiating module lpm_compare with dangling input port 4 (aclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_2.v:27: warning: Instantiating module lpm_compare with dangling input port 5 (clken) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_3.v:26: warning: Instantiating module lpm_compare with dangling input port 3 (clock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_3.v:26: warning: Instantiating module lpm_compare with dangling input port 4 (aclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_3.v:26: warning: Instantiating module lpm_compare with dangling input port 5 (clken) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_4.v:26: warning: Instantiating module lpm_compare with dangling input port 3 (clock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_4.v:26: warning: Instantiating module lpm_compare with dangling input port 4 (aclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_compare_4.v:26: warning: Instantiating module lpm_compare with dangling input port 5 (clken) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:59: warning: Instantiating module lpm_mux with dangling input port 3 (clock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:59: warning: Instantiating module lpm_mux with dangling input port 4 (aclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_data_mux.v:59: warning: Instantiating module lpm_mux with dangling input port 5 (clken) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: input port data is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: input port enable is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: input port aclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: Instantiating module lpm_ff with dangling input port 5 (aset) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: Instantiating module lpm_ff with dangling input port 6 (aload) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: Instantiating module lpm_ff with dangling input port 7 (sclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: Instantiating module lpm_ff with dangling input port 8 (sset) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_ff_11.v:28: warning: Instantiating module lpm_ff with dangling input port 9 (sload) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:263: warning: input port enable is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:270: warning: input port aclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:271: warning: input port data is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_12.v:26: warning: input port inclock is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_12.v:26: warning: Instantiating module lpm_rom with dangling input port 3 (outclock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_12.v:26: warning: Instantiating module lpm_rom with dangling input port 4 (memenab) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:276: warning: input port inclock is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_13.v:26: warning: input port inclock is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_13.v:26: warning: Instantiating module lpm_rom with dangling input port 3 (outclock) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_rom_13.v:26: warning: Instantiating module lpm_rom with dangling input port 4 (memenab) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:284: warning: input port inclock is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: Instantiating module lpm_counter with dangling input port 2 (clk_en) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: input port cnt_en is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: Instantiating module lpm_counter with dangling input port 4 (updown) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: input port aclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: Instantiating module lpm_counter with dangling input port 6 (aset) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: Instantiating module lpm_counter with dangling input port 7 (aload) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: Instantiating module lpm_counter with dangling input port 8 (sclr) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: input port sset is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: input port sload is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_14.v:30: warning: Instantiating module lpm_counter with dangling input port 12 (cin) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:292: warning: input port sload is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:296: warning: input port aclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:299: warning: input port sset is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:301: warning: input port cnt_en is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 2 (clk_en) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 3 (cnt_en) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 4 (updown) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: input port aclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 6 (aset) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 7 (aload) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: input port sclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 9 (sset) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 10 (sload) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 11 (data) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lpm_counter_15.v:27: warning: Instantiating module lpm_counter with dangling input port 12 (cin) floating.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:313: warning: input port aclr is coerced to inout.
+/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/export_compat/lcd_operation_display.v:319: warning: input port sclr is coerced to inout.

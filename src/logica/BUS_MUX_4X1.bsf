@@ -21,7 +21,7 @@ on the Quartus Prime software download page.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 64 64 200 192)
+	(rect 16 16 152 144)
 	(text "BUS_MUX_4X1" (rect 5 0 98 14)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 112 24 124)(font "Intel Clear" ))
 	(port
@@ -53,11 +53,11 @@ on the Quartus Prime software download page.
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
-		(pt 64 128)
+		(pt 0 96)
 		(input)
 		(text "S[1..0]" (rect 0 0 38 14)(font "Intel Clear" (font_size 8)))
-		(text "S[1..0]" (rect 56 64 70 102)(font "Intel Clear" (font_size 8))(vertical))
-		(line (pt 64 128)(pt 64 111)(line_width 3))
+		(text "S[1..0]" (rect 21 91 59 105)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port
 		(pt 136 32)

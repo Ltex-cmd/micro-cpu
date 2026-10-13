@@ -1,18 +1,18 @@
 # -------------------------------------------------------------------------- #
 #
 # Copyright (C) 2025  Altera Corporation. All rights reserved.
-# Your use of Altera Corporation's design tools, logic functions 
-# and other software and tools, and any partner logic 
-# functions, and any output files from any of the foregoing 
-# (including device programming or simulation files), and any 
-# associated documentation or information are expressly subject 
-# to the terms and conditions of the Altera Program License 
+# Your use of Altera Corporation's design tools, logic functions
+# and other software and tools, and any partner logic
+# functions, and any output files from any of the foregoing
+# (including device programming or simulation files), and any
+# associated documentation or information are expressly subject
+# to the terms and conditions of the Altera Program License
 # Subscription Agreement, the Altera Quartus Prime License Agreement,
 # the Altera IP License Agreement, or other applicable license
 # agreement, including, without limitation, that your use is for
 # the sole purpose of programming logic devices manufactured by
 # Altera and sold by Altera or its authorized distributors.  Please
-# refer to the Altera Software License Subscription Agreements 
+# refer to the Altera Software License Subscription Agreements
 # on the Quartus Prime software download page.
 #
 # -------------------------------------------------------------------------- #
@@ -43,7 +43,7 @@ set_global_assignment -name TOP_LEVEL_ENTITY Micro_CPU
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:06:15  SEPTEMBER 15, 2026"
 set_global_assignment -name LAST_QUARTUS_VERSION "25.1std.0 Lite Edition"
-set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY build/Micro_CPU/output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
@@ -61,40 +61,53 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 
-# Bibliotecas locais: esquemas e simbolos organizados por funcao.
-set_global_assignment -name SEARCH_PATH src/top
-set_global_assignment -name SEARCH_PATH src/ula
-set_global_assignment -name SEARCH_PATH src/contadores
-set_global_assignment -name SEARCH_PATH src/registradores
-set_global_assignment -name SEARCH_PATH src/display
-set_global_assignment -name SEARCH_PATH src/logica
+
+
+
+# Fontes e simbolos organizados por funcao.
 set_global_assignment -name SEARCH_PATH memoria
-
-# Fontes do projeto, incluindo o circuito principal.
-
-# Conteudo inicial da memoria.
-
-set_global_assignment -name BSF_FILE src/ula/subtrator4semdisplay.bsf
-set_global_assignment -name BDF_FILE src/ula/subtrador_4_bits.bdf
-set_global_assignment -name BSF_FILE src/ula/subtrator_completo.bsf
-set_global_assignment -name BDF_FILE src/ula/subtrator_completo.bdf
-set_global_assignment -name BDF_FILE src/contadores/RIPPLE_COUNTER.bdf
-set_global_assignment -name BDF_FILE src/contadores/Synchronous_Counter_with_Jump.bdf
-set_global_assignment -name BDF_FILE src/contadores/TFF_Jump.bdf
-set_global_assignment -name BDF_FILE src/display/hex_display.bdf
-set_global_assignment -name BDF_FILE src/logica/BUS_DEMUX_1X4.bdf
-set_global_assignment -name BDF_FILE src/logica/BUS_MUX_2X1.bdf
-set_global_assignment -name BDF_FILE src/logica/BUS_MUX_4X1.bdf
-set_global_assignment -name BDF_FILE src/logica/DEMUX_1X2.bdf
-set_global_assignment -name BDF_FILE src/logica/DEMUX_1X4.bdf
-set_global_assignment -name BDF_FILE src/registradores/REGISTER_PIPO_4BITS.bdf
-set_global_assignment -name BDF_FILE src/top/Micro_CPU.bdf
-set_global_assignment -name BDF_FILE src/ula/ADDER_LOCKAHEAD_4BITS.bdf
-set_global_assignment -name BDF_FILE src/ula/COMPARATOR_4BITS.bdf
-set_global_assignment -name BDF_FILE src/ula/CSM.bdf
-set_global_assignment -name BDF_FILE src/ula/FS.bdf
-set_global_assignment -name BDF_FILE src/ula/MULTIPLIER_4BITS.bdf
-set_global_assignment -name BDF_FILE src/ula/divisor.bdf
-set_global_assignment -name BDF_FILE src/ula/sum_look_ahead.bdf
+set_global_assignment -name SEARCH_PATH src/legado/Micro_CPU/contadores
+set_global_assignment -name SEARCH_PATH src/legado/Micro_CPU/display
+set_global_assignment -name SEARCH_PATH src/legado/Micro_CPU/logica
+set_global_assignment -name SEARCH_PATH src/legado/Micro_CPU/registradores
+set_global_assignment -name SEARCH_PATH src/legado/Micro_CPU/top
+set_global_assignment -name SEARCH_PATH src/legado/Micro_CPU/ula
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/contadores/RIPPLE_COUNTER.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/contadores/RIPPLE_COUNTER.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/contadores/Synchronous_Counter_with_Jump.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/contadores/Synchronous_Counter_with_Jump.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/contadores/TFF_Jump.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/contadores/TFF_Jump.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/display/hex_display.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/display/hex_display.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/logica/BUS_DEMUX_1X4.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/logica/BUS_DEMUX_1X4.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/logica/BUS_MUX_2X1.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/logica/BUS_MUX_2X1.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/logica/BUS_MUX_4X1.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/logica/BUS_MUX_4X1.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/logica/DEMUX_1X2.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/logica/DEMUX_1X2.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/logica/DEMUX_1X4.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/logica/DEMUX_1X4.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/registradores/REGISTER_PIPO_4BITS.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/registradores/REGISTER_PIPO_4BITS.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/top/Micro_CPU.bdf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/ADDER_LOCKAHEAD_4BITS.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/ADDER_LOCKAHEAD_4BITS.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/COMPARATOR_4BITS.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/COMPARATOR_4BITS.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/CSM.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/CSM.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/FS.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/FS.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/MULTIPLIER_4BITS.bdf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/divisor.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/divisor.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/subtrator4semdisplay.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/subtrator4semdisplay.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/subtrator_completo.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/subtrator_completo.bsf
+set_global_assignment -name BDF_FILE src/legado/Micro_CPU/ula/sum_look_ahead.bdf
+set_global_assignment -name BSF_FILE src/legado/Micro_CPU/ula/sum_look_ahead.bsf
 set_global_assignment -name MIF_FILE memoria/INSTRUCAO.mif
-set_global_assignment -name BDF_FILE src/ula/subtrator4semdisplay.bdf

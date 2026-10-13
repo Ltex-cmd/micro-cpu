@@ -1,0 +1,20 @@
+# MAPA EDITAVEL DO LCD. Os nomes abaixo sao exemplos, nao a ISA confirmada.
+# Formato: codigo hexadecimal de 0 a F, espaco, nome ASCII de ate 16 caracteres.
+# Codigo sem nome: mostrar 16 espacos. Cada codigo pode aparecer uma unica vez.
+# Use os opcodes reais da CPU; editar este arquivo muda somente o texto do LCD.
+0 ADD
+1 SUB
+2 MUL
+3 DIV
+4 MOD
+5 AND
+6 OR
+7 XOR
+8 JMP
+9
+A
+B
+C
+D
+E
+F

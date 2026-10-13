@@ -1,0 +1,1522 @@
+{
+  "result": "PASS",
+  "scope": "Structural BDF-to-export cross-check; not a formal equivalence proof or Quartus re-export",
+  "sources_sha256": {
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/lcd_operation_display.bdf": "811b55727d012049e759bb8e1023d017ea7522a4748de4579b3f8c77d573c687",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lcd_data_mux.v": "3351c9bab1d5c11b687e4a1b97013a4264ce48978382d3262d8885b2b1a9caed",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lcd_operation_display.v": "0c99fcddd450443dfc6aec04061d3726da48bfe699a565c08dfd202b3d253cbc",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_compare_0.v": "88e88fbf5f4aebd75e91b8e3f9553027ef4b25a4f72aaf7c6f75a081fae73257",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_compare_1.v": "adc6abd93a76d5242c737a4040b321666e2e72112f7a5331bc17d482abf1f46f",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_compare_2.v": "f7dc2b4e4ceef434c675350c410679d7d9528c3734a0a61083fd4e3ff02f541e",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_compare_3.v": "0195c825e57e98cb3899352ca02c7e9e7deb86021fb300d227f03b4cdfa005fd",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_compare_4.v": "aa441c4eee30405cc6beae224637967beafd7330ae81f53a6ff5558ad84bc94e",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_10.v": "c1a732f9cc1d2013d84160d2b48b6a24603e1c72a9361ce52edb0a17c63746d4",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_11.v": "f5c8a4eeefef574ec8ff94cf0f5660cdf177cdf1bae647dabb5de06f31612c6b",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_5.v": "009edbc729747e0db02eed6053e2a01c296d3f1abd2d0778f3a5ffc094f7edf2",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_6.v": "83eece033aad21c97ecd124a5b427f8e74996acfb97d100ea2cb6a41c9c01180",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_7.v": "7b0bc50376cbff367aa31e5b9b7bc5b4e814180ae6fe20c1dd19ffe9408b0569",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_8.v": "2b346c9b486b3b9e046335815e51a0f1474edffbf7b56a7a629a8ff8f61b02a6",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_constant_9.v": "1bc81ea41cc60a26f6c0a15ab3fbb68dcc7ab31212bc0b3cddbbd44624881c74",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_counter_14.v": "d5c9234768feaf9f4ab7566cb0841db824e3cec626af91459d4d53b87033b824",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_counter_15.v": "f6f9fb95dc655b25f844d27fdf896cc1e763577dac843feed30c84d6f92654cf",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_counter_16.v": "1af552d0c412bd2734924d9822e3b03f111dcecc5851961064aac7fbdef92fb5",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_ff_11.v": "214e16ef8566513e55d8553fda3a241cd1a88d31376fe22d6a05c1300d5fb835",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_ff_12.v": "3396ea93b096749e51fa392256ba88fd790c55704e871e344a46bb938aeb87b3",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_mux_6.v": "72d84595d89c2e66ebcd44f22590372506db9163f23eac2ecec02efd128bc8f0",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_rom_12.v": "b4f69772c50a1792efcaddae61f0658e6ebf179a0a91be4e20840f8f128b0775",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_rom_13.v": "2c06a768b53b830f344f2d4449627b4acc4c94eb5b6c6909b32f932c64762d43",
+    "/workspace/scratch/fa6c60114814/micro-cpu-quartus/lcd/sim/build/audit_bus_taps_final_20261007T0221/fresh_exports/lpm_rom_14.v": "5821b9d31219f36714e63786b66cfbae7688e523b9017854033ab2052e14cd40"
+  },
+  "top_ports": {
+    "CLOCK_50": [
+      "input",
+      1
+    ],
+    "RESET_N": [
+      "input",
+      1
+    ],
+    "OPCODE": [
+      "input",
+      4
+    ],
+    "PRINT": [
+      "input",
+      1
+    ],
+    "LCD_DATA": [
+      "output",
+      8
+    ],
+    "LCD_EN": [
+      "output",
+      1
+    ],
+    "LCD_RS": [
+      "output",
+      1
+    ],
+    "LCD_RW": [
+      "output",
+      1
+    ],
+    "LCD_ON": [
+      "output",
+      1
+    ],
+    "BUSY": [
+      "output",
+      1
+    ],
+    "INIT_DONE": [
+      "output",
+      1
+    ]
+  },
+  "counts": {
+    "symbols": 34,
+    "ips": 17,
+    "dffs": 4,
+    "primitive_combinational_symbols": 13
+  },
+  "checks": [
+    {
+      "instance": "CMP_FRAME_END",
+      "type": "LPM_COMPARE",
+      "connected_ports": {
+        "dataa": "TIMER_Q",
+        "datab": "KEND",
+        "aeb": "FRAME_END"
+      },
+      "parameters": {
+        "lpm_pipeline": "0",
+        "lpm_representation": "\"UNSIGNED\"",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "dataa": [
+          "TIMER_Q[18]",
+          "TIMER_Q[17]",
+          "TIMER_Q[16]",
+          "TIMER_Q[15]",
+          "TIMER_Q[14]",
+          "TIMER_Q[13]",
+          "TIMER_Q[12]",
+          "TIMER_Q[11]",
+          "TIMER_Q[10]",
+          "TIMER_Q[9]",
+          "TIMER_Q[8]",
+          "TIMER_Q[7]",
+          "TIMER_Q[6]",
+          "TIMER_Q[5]",
+          "TIMER_Q[4]",
+          "TIMER_Q[3]",
+          "TIMER_Q[2]",
+          "TIMER_Q[1]",
+          "TIMER_Q[0]"
+        ],
+        "datab": [
+          "KEND[18]",
+          "KEND[17]",
+          "KEND[16]",
+          "KEND[15]",
+          "KEND[14]",
+          "KEND[13]",
+          "KEND[12]",
+          "KEND[11]",
+          "KEND[10]",
+          "KEND[9]",
+          "KEND[8]",
+          "KEND[7]",
+          "KEND[6]",
+          "KEND[5]",
+          "KEND[4]",
+          "KEND[3]",
+          "KEND[2]",
+          "KEND[1]",
+          "KEND[0]"
+        ],
+        "aeb": [
+          "FRAME_END"
+        ]
+      },
+      "export_module": "lpm_compare_0"
+    },
+    {
+      "instance": "CMP_LT100",
+      "type": "LPM_COMPARE",
+      "connected_ports": {
+        "dataa": "TIMER_Q",
+        "datab": "K100",
+        "alb": "LT100"
+      },
+      "parameters": {
+        "lpm_pipeline": "0",
+        "lpm_representation": "\"UNSIGNED\"",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "dataa": [
+          "TIMER_Q[18]",
+          "TIMER_Q[17]",
+          "TIMER_Q[16]",
+          "TIMER_Q[15]",
+          "TIMER_Q[14]",
+          "TIMER_Q[13]",
+          "TIMER_Q[12]",
+          "TIMER_Q[11]",
+          "TIMER_Q[10]",
+          "TIMER_Q[9]",
+          "TIMER_Q[8]",
+          "TIMER_Q[7]",
+          "TIMER_Q[6]",
+          "TIMER_Q[5]",
+          "TIMER_Q[4]",
+          "TIMER_Q[3]",
+          "TIMER_Q[2]",
+          "TIMER_Q[1]",
+          "TIMER_Q[0]"
+        ],
+        "datab": [
+          "K100[18]",
+          "K100[17]",
+          "K100[16]",
+          "K100[15]",
+          "K100[14]",
+          "K100[13]",
+          "K100[12]",
+          "K100[11]",
+          "K100[10]",
+          "K100[9]",
+          "K100[8]",
+          "K100[7]",
+          "K100[6]",
+          "K100[5]",
+          "K100[4]",
+          "K100[3]",
+          "K100[2]",
+          "K100[1]",
+          "K100[0]"
+        ],
+        "alb": [
+          "LT100"
+        ]
+      },
+      "export_module": "lpm_compare_3"
+    },
+    {
+      "instance": "CMP_GE50",
+      "type": "LPM_COMPARE",
+      "connected_ports": {
+        "dataa": "TIMER_Q",
+        "datab": "FIFTY_CONST",
+        "ageb": "GE50"
+      },
+      "parameters": {
+        "lpm_pipeline": "0",
+        "lpm_representation": "\"UNSIGNED\"",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "dataa": [
+          "TIMER_Q[18]",
+          "TIMER_Q[17]",
+          "TIMER_Q[16]",
+          "TIMER_Q[15]",
+          "TIMER_Q[14]",
+          "TIMER_Q[13]",
+          "TIMER_Q[12]",
+          "TIMER_Q[11]",
+          "TIMER_Q[10]",
+          "TIMER_Q[9]",
+          "TIMER_Q[8]",
+          "TIMER_Q[7]",
+          "TIMER_Q[6]",
+          "TIMER_Q[5]",
+          "TIMER_Q[4]",
+          "TIMER_Q[3]",
+          "TIMER_Q[2]",
+          "TIMER_Q[1]",
+          "TIMER_Q[0]"
+        ],
+        "datab": [
+          "FIFTY_CONST[18]",
+          "FIFTY_CONST[17]",
+          "FIFTY_CONST[16]",
+          "FIFTY_CONST[15]",
+          "FIFTY_CONST[14]",
+          "FIFTY_CONST[13]",
+          "FIFTY_CONST[12]",
+          "FIFTY_CONST[11]",
+          "FIFTY_CONST[10]",
+          "FIFTY_CONST[9]",
+          "FIFTY_CONST[8]",
+          "FIFTY_CONST[7]",
+          "FIFTY_CONST[6]",
+          "FIFTY_CONST[5]",
+          "FIFTY_CONST[4]",
+          "FIFTY_CONST[3]",
+          "FIFTY_CONST[2]",
+          "FIFTY_CONST[1]",
+          "FIFTY_CONST[0]"
+        ],
+        "ageb": [
+          "GE50"
+        ]
+      },
+      "export_module": "lpm_compare_1"
+    },
+    {
+      "instance": "TIMER",
+      "type": "LPM_COUNTER",
+      "connected_ports": {
+        "clock": "CLOCK_50",
+        "aclr": "RESET",
+        "sclr": "ACCEPT",
+        "q": "TIMER_Q"
+      },
+      "parameters": {
+        "lpm_modulus": "500000",
+        "lpm_direction": "\"UP\"",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "clock": [
+          "CLOCK_50"
+        ],
+        "aclr": [
+          "RESET"
+        ],
+        "sclr": [
+          "ACCEPT"
+        ],
+        "q": [
+          "TIMER_Q[18]",
+          "TIMER_Q[17]",
+          "TIMER_Q[16]",
+          "TIMER_Q[15]",
+          "TIMER_Q[14]",
+          "TIMER_Q[13]",
+          "TIMER_Q[12]",
+          "TIMER_Q[11]",
+          "TIMER_Q[10]",
+          "TIMER_Q[9]",
+          "TIMER_Q[8]",
+          "TIMER_Q[7]",
+          "TIMER_Q[6]",
+          "TIMER_Q[5]",
+          "TIMER_Q[4]",
+          "TIMER_Q[3]",
+          "TIMER_Q[2]",
+          "TIMER_Q[1]",
+          "TIMER_Q[0]"
+        ]
+      },
+      "export_module": "lpm_counter_15"
+    },
+    {
+      "instance": "SLOT",
+      "type": "LPM_COUNTER",
+      "connected_ports": {
+        "sload": "ACCEPT",
+        "data": "K15",
+        "clock": "CLOCK_50",
+        "aclr": "RESET",
+        "sset": "RETURN_IDLE",
+        "cnt_en": "BYTE_ADVANCE",
+        "q": "SLOT_Q"
+      },
+      "parameters": {
+        "lpm_svalue": "13",
+        "lpm_modulus": "32",
+        "lpm_direction": "\"UP\"",
+        "lpm_width": "5"
+      },
+      "connected_port_bits": {
+        "sload": [
+          "ACCEPT"
+        ],
+        "data": [
+          "K15[4]",
+          "K15[3]",
+          "K15[2]",
+          "K15[1]",
+          "K15[0]"
+        ],
+        "clock": [
+          "CLOCK_50"
+        ],
+        "aclr": [
+          "RESET"
+        ],
+        "sset": [
+          "RETURN_IDLE"
+        ],
+        "cnt_en": [
+          "BYTE_ADVANCE"
+        ],
+        "q": [
+          "SLOT_Q[4]",
+          "SLOT_Q[3]",
+          "SLOT_Q[2]",
+          "SLOT_Q[1]",
+          "SLOT_Q[0]"
+        ]
+      },
+      "export_module": "lpm_counter_14"
+    },
+    {
+      "instance": "CONST_50",
+      "type": "LPM_CONSTANT",
+      "connected_ports": {
+        "result": "FIFTY_CONST"
+      },
+      "parameters": {
+        "lpm_cvalue": "50",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "result": [
+          "FIFTY_CONST[18]",
+          "FIFTY_CONST[17]",
+          "FIFTY_CONST[16]",
+          "FIFTY_CONST[15]",
+          "FIFTY_CONST[14]",
+          "FIFTY_CONST[13]",
+          "FIFTY_CONST[12]",
+          "FIFTY_CONST[11]",
+          "FIFTY_CONST[10]",
+          "FIFTY_CONST[9]",
+          "FIFTY_CONST[8]",
+          "FIFTY_CONST[7]",
+          "FIFTY_CONST[6]",
+          "FIFTY_CONST[5]",
+          "FIFTY_CONST[4]",
+          "FIFTY_CONST[3]",
+          "FIFTY_CONST[2]",
+          "FIFTY_CONST[1]",
+          "FIFTY_CONST[0]"
+        ]
+      },
+      "export_module": "lpm_constant_5"
+    },
+    {
+      "instance": "inst2",
+      "type": "LPM_CONSTANT",
+      "connected_ports": {
+        "result": "K100"
+      },
+      "parameters": {
+        "lpm_cvalue": "100",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "result": [
+          "K100[18]",
+          "K100[17]",
+          "K100[16]",
+          "K100[15]",
+          "K100[14]",
+          "K100[13]",
+          "K100[12]",
+          "K100[11]",
+          "K100[10]",
+          "K100[9]",
+          "K100[8]",
+          "K100[7]",
+          "K100[6]",
+          "K100[5]",
+          "K100[4]",
+          "K100[3]",
+          "K100[2]",
+          "K100[1]",
+          "K100[0]"
+        ]
+      },
+      "export_module": "lpm_constant_6"
+    },
+    {
+      "instance": "inst3",
+      "type": "LPM_CONSTANT",
+      "connected_ports": {
+        "result": "KEND"
+      },
+      "parameters": {
+        "lpm_cvalue": "499999",
+        "lpm_width": "19"
+      },
+      "connected_port_bits": {
+        "result": [
+          "KEND[18]",
+          "KEND[17]",
+          "KEND[16]",
+          "KEND[15]",
+          "KEND[14]",
+          "KEND[13]",
+          "KEND[12]",
+          "KEND[11]",
+          "KEND[10]",
+          "KEND[9]",
+          "KEND[8]",
+          "KEND[7]",
+          "KEND[6]",
+          "KEND[5]",
+          "KEND[4]",
+          "KEND[3]",
+          "KEND[2]",
+          "KEND[1]",
+          "KEND[0]"
+        ]
+      },
+      "export_module": "lpm_constant_7"
+    },
+    {
+      "instance": "inst4",
+      "type": "LPM_CONSTANT",
+      "connected_ports": {
+        "result": "K15"
+      },
+      "parameters": {
+        "lpm_cvalue": "15",
+        "lpm_width": "5"
+      },
+      "connected_port_bits": {
+        "result": [
+          "K15[4]",
+          "K15[3]",
+          "K15[2]",
+          "K15[1]",
+          "K15[0]"
+        ]
+      },
+      "export_module": "lpm_constant_8"
+    },
+    {
+      "instance": "ROM_CONTROL",
+      "type": "LPM_ROM",
+      "connected_ports": {
+        "address": "SLOT_Q[3:0]",
+        "inclock": "CLOCK_50",
+        "q": "CTRL_DATA"
+      },
+      "parameters": {
+        "lpm_address_control": "\"REGISTERED\"",
+        "lpm_file": "\"control.mif\"",
+        "lpm_numwords": "16",
+        "lpm_outdata": "\"UNREGISTERED\"",
+        "lpm_width": "8",
+        "lpm_widthad": "4"
+      },
+      "connected_port_bits": {
+        "address": [
+          "SLOT_Q[3]",
+          "SLOT_Q[2]",
+          "SLOT_Q[1]",
+          "SLOT_Q[0]"
+        ],
+        "inclock": [
+          "CLOCK_50"
+        ],
+        "q": [
+          "CTRL_DATA[7]",
+          "CTRL_DATA[6]",
+          "CTRL_DATA[5]",
+          "CTRL_DATA[4]",
+          "CTRL_DATA[3]",
+          "CTRL_DATA[2]",
+          "CTRL_DATA[1]",
+          "CTRL_DATA[0]"
+        ]
+      },
+      "export_module": "lpm_rom_12"
+    },
+    {
+      "instance": "ROM_OPERATIONS",
+      "type": "LPM_ROM",
+      "connected_ports": {
+        "address": "{OPCODE_Q,SLOT_Q[3:0]}",
+        "inclock": "CLOCK_50",
+        "q": "TEXT_DATA"
+      },
+      "parameters": {
+        "lpm_address_control": "\"REGISTERED\"",
+        "lpm_file": "\"operations.mif\"",
+        "lpm_numwords": "256",
+        "lpm_outdata": "\"UNREGISTERED\"",
+        "lpm_width": "8",
+        "lpm_widthad": "8"
+      },
+      "connected_port_bits": {
+        "address": [
+          "OPCODE_Q[3]",
+          "OPCODE_Q[2]",
+          "OPCODE_Q[1]",
+          "OPCODE_Q[0]",
+          "SLOT_Q[3]",
+          "SLOT_Q[2]",
+          "SLOT_Q[1]",
+          "SLOT_Q[0]"
+        ],
+        "inclock": [
+          "CLOCK_50"
+        ],
+        "q": [
+          "TEXT_DATA[7]",
+          "TEXT_DATA[6]",
+          "TEXT_DATA[5]",
+          "TEXT_DATA[4]",
+          "TEXT_DATA[3]",
+          "TEXT_DATA[2]",
+          "TEXT_DATA[1]",
+          "TEXT_DATA[0]"
+        ]
+      },
+      "export_module": "lpm_rom_13"
+    },
+    {
+      "instance": "CMP_SLOT5",
+      "type": "LPM_COMPARE",
+      "connected_ports": {
+        "dataa": "SLOT_Q",
+        "datab": "FIVE_CONST",
+        "ageb": "STATE_GE5"
+      },
+      "parameters": {
+        "lpm_pipeline": "0",
+        "lpm_representation": "\"UNSIGNED\"",
+        "lpm_width": "5"
+      },
+      "connected_port_bits": {
+        "dataa": [
+          "SLOT_Q[4]",
+          "SLOT_Q[3]",
+          "SLOT_Q[2]",
+          "SLOT_Q[1]",
+          "SLOT_Q[0]"
+        ],
+        "datab": [
+          "FIVE_CONST[4]",
+          "FIVE_CONST[3]",
+          "FIVE_CONST[2]",
+          "FIVE_CONST[1]",
+          "FIVE_CONST[0]"
+        ],
+        "ageb": [
+          "STATE_GE5"
+        ]
+      },
+      "export_module": "lpm_compare_4"
+    },
+    {
+      "instance": "CMP_IDLE",
+      "type": "LPM_COMPARE",
+      "connected_ports": {
+        "dataa": "SLOT_Q",
+        "datab": "K13",
+        "aeb": "IDLE",
+        "ageb": "INIT_DONE"
+      },
+      "parameters": {
+        "lpm_pipeline": "0",
+        "lpm_representation": "\"UNSIGNED\"",
+        "lpm_width": "5"
+      },
+      "connected_port_bits": {
+        "dataa": [
+          "SLOT_Q[4]",
+          "SLOT_Q[3]",
+          "SLOT_Q[2]",
+          "SLOT_Q[1]",
+          "SLOT_Q[0]"
+        ],
+        "datab": [
+          "K13[4]",
+          "K13[3]",
+          "K13[2]",
+          "K13[1]",
+          "K13[0]"
+        ],
+        "aeb": [
+          "IDLE"
+        ],
+        "ageb": [
+          "INIT_DONE"
+        ]
+      },
+      "export_module": "lpm_compare_2"
+    },
+    {
+      "instance": "inst8",
+      "type": "LPM_CONSTANT",
+      "connected_ports": {
+        "result": "FIVE_CONST"
+      },
+      "parameters": {
+        "lpm_cvalue": "5",
+        "lpm_width": "5"
+      },
+      "connected_port_bits": {
+        "result": [
+          "FIVE_CONST[4]",
+          "FIVE_CONST[3]",
+          "FIVE_CONST[2]",
+          "FIVE_CONST[1]",
+          "FIVE_CONST[0]"
+        ]
+      },
+      "export_module": "lpm_constant_9"
+    },
+    {
+      "instance": "inst9",
+      "type": "LPM_CONSTANT",
+      "connected_ports": {
+        "result": "K13"
+      },
+      "parameters": {
+        "lpm_cvalue": "13",
+        "lpm_width": "5"
+      },
+      "connected_port_bits": {
+        "result": [
+          "K13[4]",
+          "K13[3]",
+          "K13[2]",
+          "K13[1]",
+          "K13[0]"
+        ]
+      },
+      "export_module": "lpm_constant_10"
+    },
+    {
+      "instance": "inst10",
+      "type": "AND2",
+      "connected_ports": {
+        "IN1": "FRAME_END",
+        "IN2": "BUSY",
+        "OUT": "BYTE_ADVANCE"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN1": [
+          "FRAME_END"
+        ],
+        "IN2": [
+          "BUSY"
+        ],
+        "OUT": [
+          "BYTE_ADVANCE"
+        ]
+      }
+    },
+    {
+      "instance": "inst11",
+      "type": "AND2",
+      "connected_ports": {
+        "IN1": "FRAME_END",
+        "IN2": "SLOT31",
+        "OUT": "RETURN_IDLE"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN1": [
+          "FRAME_END"
+        ],
+        "IN2": [
+          "SLOT31"
+        ],
+        "OUT": [
+          "RETURN_IDLE"
+        ]
+      }
+    },
+    {
+      "instance": "inst12",
+      "type": "AND2",
+      "connected_ports": {
+        "IN1": "STATE_GE5",
+        "IN2": "BUSY",
+        "OUT": "SEND_ACTIVE"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN1": [
+          "STATE_GE5"
+        ],
+        "IN2": [
+          "BUSY"
+        ],
+        "OUT": [
+          "SEND_ACTIVE"
+        ]
+      }
+    },
+    {
+      "instance": "inst",
+      "type": "AND3",
+      "connected_ports": {
+        "IN1": "SEND_ACTIVE",
+        "IN2": "GE50",
+        "IN3": "LT100",
+        "OUT": "EN_NEXT"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN1": [
+          "SEND_ACTIVE"
+        ],
+        "IN2": [
+          "GE50"
+        ],
+        "IN3": [
+          "LT100"
+        ],
+        "OUT": [
+          "EN_NEXT"
+        ]
+      }
+    },
+    {
+      "instance": "inst13",
+      "type": "NOT",
+      "connected_ports": {
+        "IN": "IDLE",
+        "OUT": "BUSY"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN": [
+          "IDLE"
+        ],
+        "OUT": [
+          "BUSY"
+        ]
+      }
+    },
+    {
+      "instance": "inst14",
+      "type": "NOT",
+      "connected_ports": {
+        "IN": "PRINT_PREV",
+        "OUT": "PRINT_PREV_N"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN": [
+          "PRINT_PREV"
+        ],
+        "OUT": [
+          "PRINT_PREV_N"
+        ]
+      }
+    },
+    {
+      "instance": "inst15",
+      "type": "NOT",
+      "connected_ports": {
+        "IN": "RST_N",
+        "OUT": "RESET"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN": [
+          "RST_N"
+        ],
+        "OUT": [
+          "RESET"
+        ]
+      }
+    },
+    {
+      "instance": "inst16",
+      "type": "DFF",
+      "connected_ports": {
+        "CLRN": "RST_N",
+        "CLK": "CLOCK_50",
+        "D": "EN_NEXT",
+        "Q": "LCD_EN"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "CLRN": [
+          "RST_N"
+        ],
+        "CLK": [
+          "CLOCK_50"
+        ],
+        "D": [
+          "EN_NEXT"
+        ],
+        "Q": [
+          "LCD_EN"
+        ]
+      }
+    },
+    {
+      "instance": "inst17",
+      "type": "DFF",
+      "connected_ports": {
+        "CLRN": "RST_N",
+        "CLK": "CLOCK_50",
+        "D": "PRINT",
+        "Q": "PRINT_PREV"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "CLRN": [
+          "RST_N"
+        ],
+        "CLK": [
+          "CLOCK_50"
+        ],
+        "D": [
+          "PRINT"
+        ],
+        "Q": [
+          "PRINT_PREV"
+        ]
+      }
+    },
+    {
+      "instance": "inst18",
+      "type": "DFF",
+      "connected_ports": {
+        "CLRN": "RESET_N",
+        "CLK": "CLOCK_50",
+        "D": "ONE",
+        "Q": "RESET_STAGE1"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "CLRN": [
+          "RESET_N"
+        ],
+        "CLK": [
+          "CLOCK_50"
+        ],
+        "D": [
+          "ONE"
+        ],
+        "Q": [
+          "RESET_STAGE1"
+        ]
+      }
+    },
+    {
+      "instance": "inst19",
+      "type": "DFF",
+      "connected_ports": {
+        "CLRN": "RESET_N",
+        "CLK": "CLOCK_50",
+        "D": "RESET_STAGE1",
+        "Q": "RST_N"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "CLRN": [
+          "RESET_N"
+        ],
+        "CLK": [
+          "CLOCK_50"
+        ],
+        "D": [
+          "RESET_STAGE1"
+        ],
+        "Q": [
+          "RST_N"
+        ]
+      }
+    },
+    {
+      "instance": "OPCODE_LATCH",
+      "type": "LPM_FF",
+      "connected_ports": {
+        "enable": "ACCEPT",
+        "clock": "CLOCK_50",
+        "aclr": "RESET",
+        "data": "OPCODE",
+        "q": "OPCODE_Q"
+      },
+      "parameters": {
+        "lpm_fftype": "\"DFF\"",
+        "lpm_width": "4"
+      },
+      "connected_port_bits": {
+        "enable": [
+          "ACCEPT"
+        ],
+        "clock": [
+          "CLOCK_50"
+        ],
+        "aclr": [
+          "RESET"
+        ],
+        "data": [
+          "OPCODE[3]",
+          "OPCODE[2]",
+          "OPCODE[1]",
+          "OPCODE[0]"
+        ],
+        "q": [
+          "OPCODE_Q[3]",
+          "OPCODE_Q[2]",
+          "OPCODE_Q[1]",
+          "OPCODE_Q[0]"
+        ]
+      },
+      "export_module": "lpm_ff_11"
+    },
+    {
+      "instance": "ACCEPT_GATE",
+      "type": "AND3",
+      "connected_ports": {
+        "IN1": "PRINT",
+        "IN2": "PRINT_PREV_N",
+        "IN3": "IDLE",
+        "OUT": "ACCEPT"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN1": [
+          "PRINT"
+        ],
+        "IN2": [
+          "PRINT_PREV_N"
+        ],
+        "IN3": [
+          "IDLE"
+        ],
+        "OUT": [
+          "ACCEPT"
+        ]
+      }
+    },
+    {
+      "instance": "inst1",
+      "type": "VCC",
+      "connected_ports": {
+        "1": "LCD_ON"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "1": [
+          "LCD_ON"
+        ]
+      }
+    },
+    {
+      "instance": "inst5",
+      "type": "GND",
+      "connected_ports": {
+        "1": "LCD_RW"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "1": [
+          "LCD_RW"
+        ]
+      }
+    },
+    {
+      "instance": "inst6",
+      "type": "WIRE",
+      "connected_ports": {
+        "IN": "SLOT_Q[4]",
+        "OUT": "LCD_RS"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN": [
+          "SLOT_Q[4]"
+        ],
+        "OUT": [
+          "LCD_RS"
+        ]
+      }
+    },
+    {
+      "instance": "CONST_ONE",
+      "type": "VCC",
+      "connected_ports": {
+        "1": "ONE"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "1": [
+          "ONE"
+        ]
+      }
+    },
+    {
+      "instance": "LAST_SLOT",
+      "type": "AND6",
+      "connected_ports": {
+        "IN3": "ONE",
+        "IN1": "SLOT_Q[4]",
+        "IN2": "SLOT_Q[0]",
+        "IN4": "SLOT_Q[3]",
+        "IN5": "SLOT_Q[2]",
+        "IN6": "SLOT_Q[1]",
+        "OUT": "SLOT31"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "IN3": [
+          "ONE"
+        ],
+        "IN1": [
+          "SLOT_Q[4]"
+        ],
+        "IN2": [
+          "SLOT_Q[0]"
+        ],
+        "IN4": [
+          "SLOT_Q[3]"
+        ],
+        "IN5": [
+          "SLOT_Q[2]"
+        ],
+        "IN6": [
+          "SLOT_Q[1]"
+        ],
+        "OUT": [
+          "SLOT31"
+        ]
+      }
+    },
+    {
+      "instance": "DATA_MUX",
+      "type": "lcd_data_mux",
+      "connected_ports": {
+        "data1x": "TEXT_DATA",
+        "data0x": "CTRL_DATA",
+        "sel": "SLOT_Q[4]",
+        "result": "LCD_DATA"
+      },
+      "parameters": {},
+      "connected_port_bits": {
+        "data1x": [
+          "TEXT_DATA[7]",
+          "TEXT_DATA[6]",
+          "TEXT_DATA[5]",
+          "TEXT_DATA[4]",
+          "TEXT_DATA[3]",
+          "TEXT_DATA[2]",
+          "TEXT_DATA[1]",
+          "TEXT_DATA[0]"
+        ],
+        "data0x": [
+          "CTRL_DATA[7]",
+          "CTRL_DATA[6]",
+          "CTRL_DATA[5]",
+          "CTRL_DATA[4]",
+          "CTRL_DATA[3]",
+          "CTRL_DATA[2]",
+          "CTRL_DATA[1]",
+          "CTRL_DATA[0]"
+        ],
+        "sel": [
+          "SLOT_Q[4]"
+        ],
+        "result": [
+          "LCD_DATA[7]",
+          "LCD_DATA[6]",
+          "LCD_DATA[5]",
+          "LCD_DATA[4]",
+          "LCD_DATA[3]",
+          "LCD_DATA[2]",
+          "LCD_DATA[1]",
+          "LCD_DATA[0]"
+        ]
+      },
+      "export_module": "lcd_data_mux"
+    }
+  ],
+  "named_bit_taps": [
+    {
+      "point": [
+        216,
+        800
+      ],
+      "member": "SLOT_Q[3]",
+      "bus_members": [
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        216,
+        832
+      ],
+      "member": "SLOT_Q[2]",
+      "bus_members": [
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        216,
+        864
+      ],
+      "member": "SLOT_Q[1]",
+      "bus_members": [
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        216,
+        896
+      ],
+      "member": "SLOT_Q[0]",
+      "bus_members": [
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        336,
+        800
+      ],
+      "member": "SLOT_Q[3]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        336,
+        832
+      ],
+      "member": "SLOT_Q[2]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        336,
+        864
+      ],
+      "member": "SLOT_Q[1]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        336,
+        896
+      ],
+      "member": "SLOT_Q[0]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        800
+      ],
+      "member": "SLOT_Q[3]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        808
+      ],
+      "member": "OPCODE_Q[3]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        832
+      ],
+      "member": "SLOT_Q[2]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        848
+      ],
+      "member": "OPCODE_Q[2]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        872
+      ],
+      "member": "SLOT_Q[1]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        888
+      ],
+      "member": "OPCODE_Q[1]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        896
+      ],
+      "member": "SLOT_Q[0]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        608,
+        928
+      ],
+      "member": "OPCODE_Q[0]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        680,
+        808
+      ],
+      "member": "OPCODE_Q[3]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        680,
+        848
+      ],
+      "member": "OPCODE_Q[2]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        680,
+        888
+      ],
+      "member": "OPCODE_Q[1]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        680,
+        928
+      ],
+      "member": "OPCODE_Q[0]",
+      "bus_members": [
+        "OPCODE_Q[3]",
+        "OPCODE_Q[2]",
+        "OPCODE_Q[1]",
+        "OPCODE_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        -32
+      ],
+      "member": "SLOT_Q[4]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        -16
+      ],
+      "member": "SLOT_Q[0]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        16
+      ],
+      "member": "SLOT_Q[3]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        32
+      ],
+      "member": "SLOT_Q[2]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        48
+      ],
+      "member": "SLOT_Q[1]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    },
+    {
+      "point": [
+        1408,
+        1088
+      ],
+      "member": "SLOT_Q[4]",
+      "bus_members": [
+        "SLOT_Q[4]",
+        "SLOT_Q[3]",
+        "SLOT_Q[2]",
+        "SLOT_Q[1]",
+        "SLOT_Q[0]"
+      ]
+    }
+  ],
+  "unlabeled_bus_members": {},
+  "limits": [
+    "Custom lcd_data_mux body is matched by source module identity and hashed; it is not independently regenerated.",
+    "Only explicit nonempty LPM parameters are compared; official library defaults remain library-defined.",
+    "No fitting, pin assignment, analog LCD, board, or timing analysis is performed."
+  ]
+}

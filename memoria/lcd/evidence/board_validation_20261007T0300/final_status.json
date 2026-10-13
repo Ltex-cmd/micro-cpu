@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "runner_exit_code": 0,
+  "finished_simulated_ns": 803461821,
+  "debounce_bits": 19,
+  "clock_hz": 50000000,
+  "completed_initializations": 2,
+  "completed_prints": 2,
+  "source_hashes_current": true,
+  "manifest_hash_entries_checked": 65,
+  "trace_bytes": 51,
+  "trace_groups": [
+    {
+      "epoch": "2",
+      "kind": "init",
+      "opcode": "-",
+      "bytes": 8
+    },
+    {
+      "epoch": "2",
+      "kind": "print",
+      "opcode": "6",
+      "bytes": 17
+    },
+    {
+      "epoch": "2",
+      "kind": "print",
+      "opcode": "1",
+      "bytes": 1
+    },
+    {
+      "epoch": "3",
+      "kind": "init",
+      "opcode": "-",
+      "bytes": 8
+    },
+    {
+      "epoch": "3",
+      "kind": "print",
+      "opcode": "8",
+      "bytes": 17
+    }
+  ],
+  "board_bdf_sha256": "665a52e1e65e3e0d9a6f4e5a01643d0fc56f95c85d7c3a8f2c3d891e5d552fe6",
+  "board_export_sha256": "6866a9fd6169b8fdfc64130a984a16c84e35b7990f796e5230d0042f81966679",
+  "local_debouncer_sha256": "aae012da3b571dcf24b3c7e1af6543cdee939329905ac7837caea421b6187b77",
+  "physical_board_tested": false,
+  "external_timing_complete": false,
+  "sof_sha256": "d5ae6af48fddd6750bd967123bc7cfeea04013b08ef10348af67a6763d312122",
+  "frozen_evidence": "evidence/board_validation_20261007T0300"
+}
